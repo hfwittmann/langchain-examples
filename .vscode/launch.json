@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Kedro Run",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "module": "kedro",
+            "cwd": "${workspaceFolder}/evaluate-llms",
+            "args": [
+                "run"
+            ]
+            // Any other arguments should be passed as a comma-seperated-list
+            // e.g "args": ["run", "--pipeline", "pipeline_name"]
+        },
+        {
+            "name": "Python: Kedro Node",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "module": "kedro",
+            "cwd": "${workspaceFolder}/evaluate-llms",
+            "args": [
+                "run",
+                "--pipeline",
+                "step06_converse",
+                // "--nodes",
+                // "split"
+            ]
+            // Any other arguments should be passed as a comma-seperated-list
+            // e.g "args": ["run", "--pipeline", "pipeline_name"]
+        }
+    ]
+}

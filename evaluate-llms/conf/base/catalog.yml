@@ -1,0 +1,28 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+webdata:
+  type: json.JSONDataSet
+  filepath: data/01_raw/webdata.json
+
+split_webdata:
+  type: json.JSONDataSet
+  filepath: data/02_intermediate/split_webdata.json
+
+embeddings_message:
+  type: json.JSONDataSet
+  filepath: data/03_primary/03_message.json
+
+docs_retrieved:
+  type: json.JSONDataSet
+  filepath: data/03_primary/04_docs_retrieved.json
+
+generated_answer:
+  type: json.JSONDataSet
+  filepath: data/03_primary/05_generated_answer.json
+
+chat_result:
+  type: json.JSONDataSet
+  filepath: data/03_primary/06_chat_result.json
