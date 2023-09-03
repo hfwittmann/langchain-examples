@@ -38,6 +38,7 @@ gpt4all = "^1.0.8"
 protobuf = "==3.20.*"
 sacremoses = "^0.0.53"
 instructorembedding = "^1.0.1"
+typer = "^0.9.0"
 
 
 [build-system]
