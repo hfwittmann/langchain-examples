@@ -1,0 +1,7 @@
+{
+  "message": "embeddings for the collections ['OpenAIEmbeddings', 'FalconEmbeddings'] have been saved",
+  "collection_sizes": {
+    "OpenAIEmbeddings": 1789,
+    "FalconEmbeddings": 1789
+  }
+}

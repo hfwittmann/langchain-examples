@@ -1,0 +1,31 @@
+{
+  "OpenAILLM": {
+    "OpenAIEmbeddings": {
+      "result": {
+        "question": "What is his role at Lufthansa?",
+        "chat_history": [
+          "{\"content\": \"Who is Bernhard Kube?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube is the Vice President of Technology Consulting, Research & Standards.\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \"What is his role at Lufthansa?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube is the Vice President of Technology Consulting, Research & Standards at Lufthansa.\", \"additional_kwargs\": {}, \"example\": false}"
+        ],
+        "answer": " Bernhard Kube is the Vice President of Technology Consulting, Research & Standards at Lufthansa."
+      },
+      "time_taken_llm_embedding": 3.7700750827789307
+    },
+    "FalconEmbeddings": {
+      "result": {
+        "question": "What is his role at Lufthansa?",
+        "chat_history": [
+          "{\"content\": \"Who is Bernhard Kube?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube is the Vice President of Artificial Intelligence & Data Analytics.\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \"What is his role at Lufthansa?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube does not appear to be mentioned in the context, so I don't know.\", \"additional_kwargs\": {}, \"example\": false}"
+        ],
+        "answer": " Bernhard Kube does not appear to be mentioned in the context, so I don't know."
+      },
+      "time_taken_llm_embedding": 2.4816176891326904
+    }
+  },
+  "time_taken": 6.437721252441406
+}
