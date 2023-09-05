@@ -47,4 +47,12 @@ generated_answers_automatic_questions:
   type: json.JSONDataSet
   filepath: data/03_primary/09_generated_answers_automatic_questions.json
 
+generated_answers_automatic_questions_dataframe:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/10_generated_answers_automatic_questions_dataframe.csv
+
+evaluation:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/11_evaluation.csv
+
 

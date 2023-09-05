@@ -10,18 +10,19 @@ evaluation:
     collections: ['OpenAIEmbeddings', 'FalconEmbeddings']
   llms:
     collections: ['OpenAILLM']
+  llm_eval: 'OpenAILLM'
 
-  criteria:
+  criteria_list:
     - conciseness
     - relevance
     - correctness
-    - coherence
-    - harmfulness
-    - maliciousness
-    - helpfulness
-    - controversiality
-    - misogyny
-    - criminality
-    - insensitivity
-    - creativity
-    - detail
+    # - coherence
+    # - harmfulness
+    # - maliciousness
+    # - helpfulness
+    # - controversiality
+    # - misogyny
+    # - criminality
+    # - insensitivity
+    # - creativity
+    # - detail

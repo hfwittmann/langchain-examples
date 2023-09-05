@@ -3,12 +3,11 @@ This is a boilerplate pipeline 'evaluate'
 generated using Kedro 0.18.13
 """
 
-from kedro.pipeline import Pipeline, pipeline, node
-from .nodes import generate_questions
-from .nodes import evaluate
+from kedro.pipeline import Pipeline, node, pipeline
 
 from ..step04_retrieve.nodes import retrieve as retrieve_contexts_automatic_questions
 from ..step05_generate.nodes import generate as generate_answers_automatic_questions
+from .nodes import evaluate, generate_questions, transform_questions_2_dataframe
 
 
 def create_pipeline(**kwargs) -> Pipeline:
@@ -53,16 +52,27 @@ def create_pipeline(**kwargs) -> Pipeline:
                 tags=["generate_answers_automatic_questions"],
             ),
             node(
-                evaluate,
+                transform_questions_2_dataframe,
                 inputs=[
                     "generated_answers_automatic_questions",
-                    "params:evaluation.criteria",
+                    "params:evaluation.llm_eval",
+                ],
+                outputs="generated_answers_automatic_questions_dataframe",
+                name="transform_questions_2_dataframe",
+                tags=["transform_questions_2_dataframe"],
+            ),
+            node(
+                evaluate,
+                inputs=[
+                    "generated_answers_automatic_questions_dataframe",
+                    "params:evaluation.criteria_list",
+                    "params:evaluation.llm_eval",
                     "params:evaluation.llms",
                     "params:evaluation.embeddings",
                     "params:models",
                     "params:user",
                 ],
-                outputs=None,
+                outputs="evaluation",
                 name="evaluate",
                 tags=["evaluate"],
             ),
