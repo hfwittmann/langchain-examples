@@ -14,7 +14,7 @@ from langchain.schema import Document
 from langchain.vectorstores import Chroma
 
 
-def generate(docs_retrieved, question, llms, embeddings, models, user):
+def generate(docs_retrieved, questions, llms, embeddings, models, user):
     start = time.time()
 
     falcon = models["falcon"]
@@ -24,49 +24,60 @@ def generate(docs_retrieved, question, llms, embeddings, models, user):
     generated_answers = dict()
     docs_retrieved_docs = dict()
 
-    # convert from jsons
-    for collection_name in embeddings["collections"]:
-        docs_retrieved_docs[collection_name] = [
-            Document(**json.loads(d)) for d in docs_retrieved[collection_name]
-        ]
-    # end : # convert from jsons
-
     for llm_name in llms["collections"]:
+        generated_answers[llm_name] = {}
+
         llm = {
             "OpenAILLM": lambda: OpenAI(temperature=0),
             "FalconLLM": lambda: GPT4All(model=user_local_path, verbose=True),
         }[llm_name]
 
         chain = load_qa_chain(llm=llm(), chain_type="stuff")
-        query = question
-
-        generated_answers[llm_name] = {}
 
         # convert from jsons
         for collection_name in embeddings["collections"]:
-            start_llm_embedding = time.time()
             generated_answers[llm_name][collection_name] = {}
+            docs_retrieved_docs[collection_name] = {}
 
-            result = chain.run(
-                input_documents=docs_retrieved_docs[collection_name], question=query
-            )
+            for ix, q in enumerate(questions):
+                ix = str(ix)
+                generated_answers[llm_name][collection_name][ix] = {}
+                docs_retrieved_docs[collection_name][ix] = {}
 
-            out = {
-                "llm_name": llm_name,
-                "query": query,
-                "result": result,
-                "source_documents": docs_retrieved_docs[collection_name],
-            }
+                # convert from jsons
+                docs_retrieved_docs[collection_name][ix]["contexts"] = [
+                    Document(**json.loads(d))
+                    for d in docs_retrieved[collection_name][ix]["contexts"]
+                ]
+                # end : # convert from jsons
 
-            out["source_documents"] = [d.json() for d in out["source_documents"]]
+                start_llm_embedding = time.time()
 
-            generated_answers[llm_name][collection_name] = out
+                result = chain.run(
+                    input_documents=docs_retrieved_docs[collection_name][ix][
+                        "contexts"
+                    ],
+                    question=q["question"],
+                )
 
-            end_llm_embedding = time.time()
-            time_taken_llm_embedding = end_llm_embedding - start_llm_embedding
-            generated_answers[llm_name][collection_name][
-                "time_taken_llm_embedding"
-            ] = time_taken_llm_embedding
+                out = {
+                    "llm_name": llm_name,
+                    "question": q["question"],
+                    "result": result,
+                    "source_documents": docs_retrieved_docs[collection_name][ix][
+                        "contexts"
+                    ],
+                }
+
+                out["source_documents"] = [d.json() for d in out["source_documents"]]
+
+                generated_answers[llm_name][collection_name][ix] = out
+
+                end_llm_embedding = time.time()
+                time_taken_llm_embedding = end_llm_embedding - start_llm_embedding
+                generated_answers[llm_name][collection_name][ix][
+                    "time_taken_llm_embedding"
+                ] = time_taken_llm_embedding
 
     # #######################################################################################
 

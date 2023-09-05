@@ -15,7 +15,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.vectorstores import Chroma
 
 
-def converse(chat, llms, embeddings, models, user):
+def converse(questions, llms, embeddings, models, user):
     start = time.time()
     persistent_client = chromadb.PersistentClient(embeddings["path"])
 
@@ -62,8 +62,8 @@ def converse(chat, llms, embeddings, models, user):
                 llm(), retriever=retriever, memory=memory
             )
 
-            for q in chat["questions"]:
-                result = this_chat({"question": q})
+            for q in questions:
+                result = this_chat({"question": q["question"]})
 
             # convert to jsons
             result["chat_history"] = [d.json() for d in result["chat_history"]]

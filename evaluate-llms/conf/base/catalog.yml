@@ -26,3 +26,25 @@ generated_answer:
 chat_result:
   type: json.JSONDataSet
   filepath: data/03_primary/06_chat_result.json
+
+generated_questions_message:
+  type: json.JSONDataSet
+  filepath: data/03_primary/07a_generated_questions_message.json
+
+questions_generated:
+  type: json.JSONDataSet
+  filepath: data/03_primary/07b_questions_generated.json
+
+questions_generated_long:
+  type: json.JSONDataSet
+  filepath: data/03_primary/07b_questions_generated_long.json
+
+retrieve_contexts_automatic_questions:
+  type: json.JSONDataSet
+  filepath: data/03_primary/08_retrieve_contexts_automatic_questions.json
+
+generated_answers_automatic_questions:
+  type: json.JSONDataSet
+  filepath: data/03_primary/09_generated_answers_automatic_questions.json
+
+

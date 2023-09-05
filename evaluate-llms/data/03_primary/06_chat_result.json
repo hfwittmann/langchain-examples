@@ -11,7 +11,7 @@
         ],
         "answer": " Bernhard Kube is the Vice President of Technology Consulting, Research & Standards at Lufthansa."
       },
-      "time_taken_llm_embedding": 3.7700750827789307
+      "time_taken_llm_embedding": 4.04267954826355
     },
     "FalconEmbeddings": {
       "result": {
@@ -24,8 +24,8 @@
         ],
         "answer": " Bernhard Kube does not appear to be mentioned in the context, so I don't know."
       },
-      "time_taken_llm_embedding": 2.4816176891326904
+      "time_taken_llm_embedding": 2.3939876556396484
     }
   },
-  "time_taken": 6.437721252441406
+  "time_taken": 6.598303318023682
 }

@@ -14,7 +14,7 @@ def create_pipeline(**kwargs) -> Pipeline:
                 generate,
                 inputs=[
                     "docs_retrieved",
-                    "params:question",
+                    "params:questions",
                     "params:llms",
                     "params:embeddings",
                     "params:models",

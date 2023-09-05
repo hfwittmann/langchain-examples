@@ -13,7 +13,7 @@ def create_pipeline(**kwargs) -> Pipeline:
             node(
                 converse,
                 inputs=[
-                    "params:chat",
+                    "params:chat.questions",
                     "params:chat.llms",
                     "params:chat.embeddings",
                     "params:models",

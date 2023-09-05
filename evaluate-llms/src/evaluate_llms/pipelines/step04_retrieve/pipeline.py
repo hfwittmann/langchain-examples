@@ -14,7 +14,7 @@ def create_pipeline(**kwargs) -> Pipeline:
                 retrieve,
                 inputs=[
                     "embeddings_message",
-                    "params:question",
+                    "params:questions",
                     "params:embeddings",
                     "params:models",
                     "params:user",

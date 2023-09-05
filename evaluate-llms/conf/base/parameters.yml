@@ -17,16 +17,7 @@ llms:
   collections: ['OpenAILLM', 'FalconLLM']
 
 url: https://www.lufthansa-industry-solutions.com/de-en/
-question: Who is Bernhard Kube?
-
-chat:
-  embeddings:
-    path: data/03_primary/embeddings
-    collections: ['OpenAIEmbeddings', 'FalconEmbeddings']
-  llms:
-    collections: ['OpenAILLM']
-
-  questions:
-    - Who is Bernhard Kube?
-    - What is his role at Lufthansa?
+questions:
+  - question: Who is Bernhard Kube?
+  - question: What is Bernhard's role at Lufthansa?
 

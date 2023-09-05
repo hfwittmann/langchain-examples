@@ -35,9 +35,9 @@
             "args": [
                 "run",
                 "--pipeline",
-                "step06_converse",
-                // "--nodes",
-                // "split"
+                "stepz_evaluate",
+                "--nodes",
+                "evaluate"
             ]
             // Any other arguments should be passed as a comma-seperated-list
             // e.g "args": ["run", "--pipeline", "pipeline_name"]
