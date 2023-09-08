@@ -1,0 +1,107 @@
+embedding,llm,question,reference_llm_eval,result,conciseness_reasoning,conciseness_value,conciseness_score,relevance_reasoning,relevance_value,relevance_score,correctness_reasoning,correctness_value,correctness_score
+FalconEmbeddings,OpenAILLM,What is the name of the company mentioned in the text?," The text does not mention a specific company, so the answer is that I don't know."," The text does not mention a specific company, so the answer is that I don't know.","Yes, the submission is concise and to the point. The submission is only two sentences long and directly answers the question.
+
+Y",Y,1,"Yes, the submission meets the criteria.
+
+Step 1: The criteria is relevance: Is the submission referring to a real quote from the text?
+Step 2: The submission is referring to a real quote from the text, which is ""The text does not mention a specific company, so the answer is that I don't know.""
+Step 3: The submission is relevant to the criteria.
+
+Y",Y,1,"Yes, the submission meets the criteria.
+
+Step 1: The criteria is ""correctness: Is the submission correct, accurate, and factual?""
+
+Step 2: The submission states that the text does not mention a specific company, so the answer is that the person does not know.
+
+Step 3: The reference also states that the text does not mention a specific company, so the answer is that the person does not know.
+
+Step 4: The submission is correct, accurate, and factual.
+
+Y",Y,1
+FalconEmbeddings,OpenAILLM,What can be found on the Lufthansa Industry Solutions website?," Information about IT consulting and system integration services, as well as information about the company's customer base, locations, and staff."," Information about IT consulting and system integration services, as well as information about the company's customer base, locations, and staff.","Yes, the submission is concise and to the point. It provides a clear answer to the question without going into unnecessary detail.
+
+Y",Y,1,"Yes, the submission meets the criteria.
+
+Step 1: Read the criteria. The criteria is asking if the submission is referring to a real quote from the text.
+
+Step 2: Read the submission. The submission states ""Information about IT consulting and system integration services, as well as information about the company's customer base, locations, and staff.""
+
+Step 3: Read the reference. The reference states ""Information about IT consulting and system integration services, as well as information about the company's customer base, locations, and staff.""
+
+Step 4: Compare the submission and the reference. The submission and the reference are the same.
+
+Step 5: Conclusion. The submission meets the criteria.
+
+Y",Y,1,"Step 1: Read the input and the submission.
+
+Step 2: Read the criteria.
+
+Step 3: Compare the submission to the reference.
+
+Step 4: Determine if the submission is correct, accurate, and factual.",Y,1
+FalconEmbeddings,OpenAILLM,What do three out of four companies expect a sustainability tool to do?, Three out of four companies expect a sustainability tool to fully automate reporting., Three out of four companies expect a sustainability tool to fully automate reporting.,"Yes, the submission is concise and to the point. It is the same as the reference, which is a concise statement.
+
+Y",Y,1,"Yes, the submission meets the criteria.
+
+Step 1: The criteria is relevance: Is the submission referring to a real quote from the text?
+
+Step 2: The reference is ""Three out of four companies expect a sustainability tool to fully automate reporting.""
+
+Step 3: The submission is ""Three out of four companies expect a sustainability tool to fully automate reporting.""
+
+Step 4: The submission is the same as the reference, so it is referring to a real quote from the text.
+
+Y",Y,1,"Step 1: Compare the submission to the reference.
+Step 2: Determine if the submission is correct, accurate, and factual.
+Step 3: If the submission is the same as the reference, then it is correct, accurate, and factual.
+
+Y",Y,1
+OpenAIEmbeddings,OpenAILLM,What is the name of the company mentioned in the text?, The company mentioned in the text is LHIND., The company mentioned in the text is LHIND.,"Step 1: Evaluate the submission against the criteria of conciseness.
+
+The submission is concise and to the point, as it directly answers the question without any unnecessary information.
+
+Y",Y,1,"Step 1: Check if the submission is referring to a real quote from the text.
+Step 2: Compare the submission to the reference.
+Step 3: The submission and the reference are the same, so the submission meets the criteria.
+Y",Y,1,"Step 1: Compare the submission to the reference.
+Step 2: Determine if the submission is correct, accurate, and factual.
+Step 3: If the submission matches the reference, then the submission meets the criteria.
+
+Y",Y,1
+OpenAIEmbeddings,OpenAILLM,What can be found on the Lufthansa Industry Solutions website?," The Lufthansa Industry Solutions website offers solutions and products, references, career information, company information, events, newsroom and downloads, studies and whitepapers, and contact information."," The Lufthansa Industry Solutions website offers solutions and products, references, career information, company information, events, newsroom and downloads, studies and whitepapers, and contact information.","The submission is concise and to the point. It provides a list of the items that can be found on the website without going into too much detail.
+
+Y",Y,1,"Yes, the submission meets the criteria.
+
+Step 1: The criteria is relevance: Is the submission referring to a real quote from the text?
+
+Step 2: The reference is ""The Lufthansa Industry Solutions website offers solutions and products, references, career information, company information, events, newsroom and downloads, studies and whitepapers, and contact information.""
+
+Step 3: The submission is ""The Lufthansa Industry Solutions website offers solutions and products, references, career information, company information, events, newsroom and downloads, studies and whitepapers, and contact information.""
+
+Step 4: The submission is referring to a real quote from the text.
+
+Y",Y,1,"Step 1: Compare the submission to the reference.
+Step 2: Determine if the submission is correct, accurate, and factual.
+Step 3: Check if the submission matches the reference.
+Step 4: If the submission matches the reference, then the submission meets the criteria.
+
+Y",Y,1
+OpenAIEmbeddings,OpenAILLM,What do three out of four companies expect a sustainability tool to do?, Three out of four companies expect a sustainability tool to fully automate reporting., Three out of four companies expect a sustainability tool to fully automate reporting.,"Yes, the submission is concise and to the point.
+
+The submission is exactly the same as the reference, which is concise and to the point.
+
+Y",Y,1,"Yes, the submission meets the criteria.
+
+Step 1: The criteria is relevance: Is the submission referring to a real quote from the text?
+
+Step 2: The reference is ""Three out of four companies expect a sustainability tool to fully automate reporting.""
+
+Step 3: The submission is ""Three out of four companies expect a sustainability tool to fully automate reporting.""
+
+Step 4: The submission is the same as the reference, so it is referring to a real quote from the text.
+
+Y",Y,1,"Step 1: Compare the submission to the reference.
+Step 2: Determine if the submission is correct, accurate, and factual.
+Step 3: If the submission is the same as the reference, then it is correct, accurate, and factual.
+
+Y",Y,1

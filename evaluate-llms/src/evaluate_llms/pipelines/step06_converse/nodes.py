@@ -21,7 +21,9 @@ def converse(questions, llms, embeddings, models, user):
 
     falcon = models["falcon"]
     user = user
-    user_local_path = eval(falcon["user_local_path"])  # TODO Geht das auch besser?
+    user_local_path = eval(
+        falcon["user_local_path"]
+    )  # TODO Geht das auch besser?
 
     out = {}
 

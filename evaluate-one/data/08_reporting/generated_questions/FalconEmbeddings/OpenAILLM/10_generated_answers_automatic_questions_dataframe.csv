@@ -1,0 +1,4 @@
+llm,embedding,question,result,reference_llm_eval
+OpenAILLM,FalconEmbeddings,What is the name of the company mentioned in the text?," The text does not mention a specific company, so I don't know."," The text does not mention a specific company, so I don't know."
+OpenAILLM,FalconEmbeddings,What can be found on the Lufthansa Industry Solutions website?," Information about IT consulting and system integration services, as well as information about the company's customer base, locations, and staff."," Information about IT consulting and system integration services, as well as information about the company's customer base, locations, and staff."
+OpenAILLM,FalconEmbeddings,What do three out of four companies expect a sustainability tool to do?, Three out of four companies expect a sustainability tool to fully automate reporting., Three out of four companies expect a sustainability tool to fully automate reporting.

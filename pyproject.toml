@@ -40,6 +40,7 @@ instructorembedding = "^1.0.1"
 typer = "^0.9.0"
 kedro = "^0.18.13"
 kedro-viz = "^6.5.0"
+python-box = "^7.1.1"
 
 
 [build-system]

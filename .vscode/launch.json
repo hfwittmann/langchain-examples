@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "justMyCode": true
+            "justMyCode": false
         },
         {
             "name": "Python: Kedro Run",
@@ -18,7 +18,8 @@
             "request": "launch",
             "console": "integratedTerminal",
             "module": "kedro",
-            "cwd": "${workspaceFolder}/evaluate-llms",
+            "cwd": "${workspaceFolder}/evaluate-one",
+            "justMyCode": false,
             "args": [
                 "run"
             ]
@@ -31,11 +32,11 @@
             "request": "launch",
             "console": "integratedTerminal",
             "module": "kedro",
-            "cwd": "${workspaceFolder}/evaluate-llms",
+            "cwd": "${workspaceFolder}/evaluate-one",
             "args": [
                 "run",
                 "--pipeline",
-                "stepz_evaluate",
+                "stepzz_evaluate",
                 "--nodes",
                 "evaluate"
             ]

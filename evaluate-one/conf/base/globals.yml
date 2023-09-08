@@ -1,0 +1,4 @@
+multiplier: 10
+
+embedding: OpenAIEmbeddings # FalconEmbeddings # ['OpenAIEmbeddings', 'FalconEmbeddings']# CURRENT_embedding
+llm: OpenAILLM # CURRENT_LLM

@@ -1,0 +1,17 @@
+{
+  "OpenAILLM": {
+    "FalconEmbeddings": {
+      "result": {
+        "question": "What is his role at Lufthansa?",
+        "chat_history": [
+          "{\"content\": \"Who is Bernhard Kube?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \"\\nBernhard Kube is a German entrepreneur and investor. He is the founder and CEO of the venture capital firm Kube Ventures.\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \"What is his role at Lufthansa?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \"\\nBernhard Kube is the Chief Human Resources Officer at Lufthansa.\", \"additional_kwargs\": {}, \"example\": false}"
+        ],
+        "answer": "\nBernhard Kube is the Chief Human Resources Officer at Lufthansa."
+      },
+      "time_taken": 3.196617603302002
+    }
+  }
+}

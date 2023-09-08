@@ -21,7 +21,9 @@ def generate_questions(webdata, embeddings, user):
     # convert from jsons
     webdata_documents = [Document(**json.loads(d)) for d in webdata]
 
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0)
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=500, chunk_overlap=0
+    )
 
     chain = QAGenerationChain.from_llm(
         llm=ChatOpenAI(temperature=0.0), text_splitter=text_splitter
@@ -92,7 +94,9 @@ def evaluate(QAs, criteria_list, llm_eval_name, llms, embeddings, models, user):
 
     falcon = models["falcon"]
     user = user
-    user_local_path = eval(falcon["user_local_path"])  # TODO Geht das auch besser?
+    user_local_path = eval(
+        falcon["user_local_path"]
+    )  # TODO Geht das auch besser?
 
     llm_eval = {
         "OpenAILLM": lambda: OpenAI(temperature=0),
@@ -106,9 +110,15 @@ def evaluate(QAs, criteria_list, llm_eval_name, llms, embeddings, models, user):
             reference=reference,
         )
 
-        return [eval_result["reasoning"], eval_result["value"], eval_result["score"]]
+        return [
+            eval_result["reasoning"],
+            eval_result["value"],
+            eval_result["score"],
+        ]
 
-    for criteria in criteria_list:  # ["correctness", "helpfulness", "relevance"]:
+    for (
+        criteria
+    ) in criteria_list:  # ["correctness", "helpfulness", "relevance"]:
         evaluator = load_evaluator(
             EvaluatorType.LABELED_CRITERIA, llm=llm_eval(), criteria=criteria
         )

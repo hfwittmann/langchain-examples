@@ -19,7 +19,9 @@ def generate(docs_retrieved, questions, llms, embeddings, models, user):
 
     falcon = models["falcon"]
     user = user
-    user_local_path = eval(falcon["user_local_path"])  # TODO Geht das auch besser?
+    user_local_path = eval(
+        falcon["user_local_path"]
+    )  # TODO Geht das auch besser?
 
     generated_answers = dict()
     docs_retrieved_docs = dict()
@@ -64,17 +66,21 @@ def generate(docs_retrieved, questions, llms, embeddings, models, user):
                     "llm_name": llm_name,
                     "question": q["question"],
                     "result": result,
-                    "source_documents": docs_retrieved_docs[collection_name][ix][
-                        "contexts"
-                    ],
+                    "source_documents": docs_retrieved_docs[collection_name][
+                        ix
+                    ]["contexts"],
                 }
 
-                out["source_documents"] = [d.json() for d in out["source_documents"]]
+                out["source_documents"] = [
+                    d.json() for d in out["source_documents"]
+                ]
 
                 generated_answers[llm_name][collection_name][ix] = out
 
                 end_llm_embedding = time.time()
-                time_taken_llm_embedding = end_llm_embedding - start_llm_embedding
+                time_taken_llm_embedding = (
+                    end_llm_embedding - start_llm_embedding
+                )
                 generated_answers[llm_name][collection_name][ix][
                     "time_taken_llm_embedding"
                 ] = time_taken_llm_embedding

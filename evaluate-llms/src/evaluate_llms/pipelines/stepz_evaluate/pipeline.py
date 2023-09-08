@@ -5,8 +5,12 @@ generated using Kedro 0.18.13
 
 from kedro.pipeline import Pipeline, node, pipeline
 
-from ..step04_retrieve.nodes import retrieve as retrieve_contexts_automatic_questions
-from ..step05_generate.nodes import generate as generate_answers_automatic_questions
+from ..step04_retrieve.nodes import (
+    retrieve as retrieve_contexts_automatic_questions,
+)
+from ..step05_generate.nodes import (
+    generate as generate_answers_automatic_questions,
+)
 from .nodes import evaluate, generate_questions, transform_questions_2_dataframe
 
 

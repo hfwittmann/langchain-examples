@@ -19,7 +19,9 @@ def retrieve(message, questions, embeddings, models, user):
     sizes = dict()
     falcon = models["falcon"]
     user = user
-    user_local_path = eval(falcon["user_local_path"])  # TODO Geht das auch besser?
+    user_local_path = eval(
+        falcon["user_local_path"]
+    )  # TODO Geht das auch besser?
 
     retrieved_documents = dict()
 
@@ -40,7 +42,11 @@ def retrieve(message, questions, embeddings, models, user):
         )
 
         assert collection.count() == langchain_chroma._collection.count()
-        print("There are", langchain_chroma._collection.count(), "in the collection")
+        print(
+            "There are",
+            langchain_chroma._collection.count(),
+            "in the collection",
+        )
 
         for ix, q in enumerate(questions):
             ix = str(ix)
@@ -51,6 +57,8 @@ def retrieve(message, questions, embeddings, models, user):
 
             retrieved_documents[collection_name][ix] = dict()
             retrieved_documents[collection_name][ix]["question"] = q["question"]
-            retrieved_documents[collection_name][ix]["contexts"] = docs_retrieved_json
+            retrieved_documents[collection_name][ix][
+                "contexts"
+            ] = docs_retrieved_json
 
     return retrieved_documents

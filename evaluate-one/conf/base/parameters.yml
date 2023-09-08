@@ -1,0 +1,19 @@
+multiplier: ${globals:multiplier}
+
+# llms: ['OpenAILLM', 'FalconLLM']
+# embeddings: ['OpenAIEmbeddings', 'FalconEmbeddings']
+
+models:
+  falcon:
+    user_local_path: /home/hfwittmann/.local/share/nomic.ai/GPT4All/ggml-model-gpt4all-falcon-q4_0.bin
+  
+embeddings:
+  path: data/03_primary/${embedding}
+  collections: ['OpenAIEmbeddings', 'FalconEmbeddings']
+
+llms:
+  evaluator: OpenAILLM
+  collections: ['OpenAILLM', 'FalconLLM']
+
+embedding: ${embedding}
+llm: ${llm}

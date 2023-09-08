@@ -23,7 +23,9 @@ def store(split_webdata, embeddings, user):
     sizes = dict()
     falcon = embeddings["falcon"]
 
-    user_local_path = eval(falcon["user_local_path"])  # TODO Geht das auch besser?
+    user_local_path = eval(
+        falcon["user_local_path"]
+    )  # TODO Geht das auch besser?
 
     for collection_name in embeddings["collections"]:
         embedding = {
