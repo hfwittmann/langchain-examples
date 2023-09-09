@@ -37,8 +37,8 @@
                 "run",
                 "--pipeline",
                 "stepzz_evaluate",
-                "--nodes",
-                "evaluate"
+                // "--nodes",
+                // "transform_questions_2_dataframe "
             ]
             // Any other arguments should be passed as a comma-seperated-list
             // e.g "args": ["run", "--pipeline", "pipeline_name"]

@@ -16,37 +16,8 @@ from langchain.llms import GPT4All, OpenAI
 from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
+
 logger = logging.getLogger(__name__)
-
-
-def generate_questions(webdata, k=3):
-    start = time.time()
-
-    # convert from jsons
-    webdata_documents = [Document(**json.loads(d)) for d in webdata]
-
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500, chunk_overlap=0
-    )
-
-    chain = QAGenerationChain.from_llm(
-        llm=ChatOpenAI(temperature=0.0), text_splitter=text_splitter
-    )
-
-    QAs_long = chain.run(webdata_documents[0].page_content)
-
-    QAs = QAs_long[:k]
-
-    time_taken = time.time() - start
-    logging.info(f"time taken: {time_taken}")
-
-    return (
-        {
-            "message": f"{len(QAs)} questions were generated for automatic evaluation purposes. The long version contains {len(QAs_long)}"
-        },
-        QAs,
-        QAs_long,
-    )
 
 
 def transform_questions_2_dataframe(QAs, llm_eval):
@@ -66,7 +37,7 @@ def transform_questions_2_dataframe(QAs, llm_eval):
                 {
                     "llm": llm,
                     "embedding": embedding,
-                    **subframe[["question", "result"]],
+                    **subframe[["question", "answer", "result"]],
                 }
             )
             D_new_llm.append(D_new)
@@ -74,9 +45,6 @@ def transform_questions_2_dataframe(QAs, llm_eval):
         results_this_llm = pd.concat(D_new_llm)
 
         D.append(results_this_llm)
-
-        if llm == llm_eval:
-            reference_llm_eval = results_this_llm[["result"]]
 
     results = pd.concat(D, ignore_index=True)
 
@@ -86,7 +54,7 @@ def transform_questions_2_dataframe(QAs, llm_eval):
     # results = pd.concat([results, results2], ignore_index=True)
     # stop : add fake data
 
-    results["reference_llm_eval"] = np.resize(reference_llm_eval, len(results))
+    results["reference_llm_eval"] = results["answer"]
     # assign with recycling
 
     return results

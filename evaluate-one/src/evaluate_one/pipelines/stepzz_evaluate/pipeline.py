@@ -11,28 +11,20 @@ from ..step04_retrieve.nodes import (
 from ..step05_generate.nodes import (
     generate as generate_answers_automatic_questions,
 )
-from .nodes import generate_questions, transform_questions_2_dataframe, evaluate
+from .nodes import (
+    transform_questions_2_dataframe,
+    evaluate,
+)
 
 
 def create_pipeline(**kwargs) -> Pipeline:
     return pipeline(
         [
             node(
-                generate_questions,
-                inputs=["webdata"],
-                outputs=[
-                    "generated_questions_message",
-                    "questions_generated",
-                    "questions_generated_long",
-                ],
-                name="generate_questions",
-                tags=["generate_questions"],
-            ),
-            node(
                 retrieve_contexts_automatic_questions,
                 inputs=[
                     "generated_questions_message",
-                    "questions_generated",
+                    "questions_answers_pairs_generated",
                     "params:embedding",
                     "params:embeddings",
                     "params:models",
@@ -45,7 +37,7 @@ def create_pipeline(**kwargs) -> Pipeline:
                 generate_answers_automatic_questions,
                 inputs=[
                     "retrieve_contexts_automatic_questions",
-                    "questions_generated",
+                    "questions_answers_pairs_generated",
                     "params:embedding",
                     "params:llm",
                     "params:embeddings",

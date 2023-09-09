@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 from kedro.framework.project import find_pipelines
-from kedro.pipeline import Pipeline
+from kedro.pipeline import Pipeline, pipeline
 
 
 def register_pipelines() -> dict[str, Pipeline]:
@@ -13,4 +13,28 @@ def register_pipelines() -> dict[str, Pipeline]:
     """
     pipelines = find_pipelines()
     pipelines["__default__"] = sum(pipelines.values())
+
+    pipelines["simple"] = pipeline(
+        [
+            p_value
+            for p_key, p_value in pipelines.items()
+            if p_key
+            in [
+                "step01_load",
+                "step02_split",
+                "step03_store",
+                "step04_retrieve",
+                "step05_generate",
+            ]
+        ]
+    )
+
+    pipelines["chat"] = pipeline(pipelines["step06_converse"])
+
+    pipelines["generate_questions_and_answers_pairs"] = pipeline(
+        pipelines["stepza_generate_questions_and_answers_pairs"]
+    )
+
+    pipelines["evaluate"] = pipeline(pipelines["stepzz_evaluate"])
+
     return pipelines

@@ -5,61 +5,65 @@
 
 webdata:
   type: json.JSONDataSet
-  filepath: data/01_raw/webdata.json
+  filepath: data/step01_load/webdata.json
 
 split_webdata:
   type: json.JSONDataSet
-  filepath: data/02_intermediate/split_webdata.json
+  filepath: data/step02_split/split_webdata.json
 
 embedding_message:
   type: json.JSONDataSet
-  filepath: data/03_primary/${embedding}/03_message.json
+  filepath: data/step03_store/${embedding}/03_message.json
 
 docs_retrieved:
   type: json.JSONDataSet
-  filepath: data/08_reporting/answers/${embedding}/04_docs_retrieved.json
+  filepath: data/step04_retrieve/answers/${embedding}/04_docs_retrieved.json
 
 generated_answer:
   type: json.JSONDataSet
-  filepath: data/08_reporting/answers/${embedding}//${llm}/05_generated_answer.json
+  filepath: data/step05_generate/answers/${embedding}//${llm}/05_generated_answer.json
 
 chat_result:
   type: json.JSONDataSet
-  filepath: data/08_reporting/chat/${embedding}//${llm}/06_chat_result.json
+  filepath: data/step06_converse/${embedding}//${llm}/06_chat_result.json
 
 generated_questions_message:
   type: json.JSONDataSet
-  filepath: data/08_reporting/generated_questions/07a_generated_questions_message.json
+  filepath: data/stepza_generate_questions_and_answers_pairs/07a_generated_questions_answers_pairs_message.json
 
-questions_generated:
+questions_answers_pairs_generated_check:
   type: json.JSONDataSet
-  filepath: data/08_reporting/generated_questions/07b_questions_generated.json
+  filepath: data/stepza_generate_questions_and_answers_pairs/07b_questions_answers_pairs_generated.json
 
-questions_generated_long:
+questions_answers_pairs_generated:
   type: json.JSONDataSet
-  filepath: data/08_reporting/generated_questions/07b_questions_generated_long.json
+  filepath: data/stepza_generate_questions_and_answers_pairs/07b_questions_answers_pairs_generated.json
+
+questions_answers_pairs_generated_long:
+  type: json.JSONDataSet
+  filepath: data/stepza_generate_questions_and_answers_pairs/07b_questions_answers_pairs_generated_long.json
 
 retrieve_contexts_automatic_questions:
   type: json.JSONDataSet
-  filepath: data/08_reporting/generated_questions/${embedding}/08_retrieve_contexts_automatic_questions.json
+  filepath: data/stepzz_evaluate/${embedding}/08_retrieve_contexts_automatic_questions.json
 
 generated_answers_automatic_questions:
   type: json.JSONDataSet
-  filepath: data/08_reporting/generated_questions/${embedding}/${llm}/10_generated_answers_automatic_questions.json
+  filepath: data/stepzz_evaluate/${embedding}/${llm}/10_generated_answers_automatic_questions.json
 
 generated_answers_automatic_questions_dataframe:
   type: pandas.CSVDataSet
-  filepath: data/08_reporting/generated_answers_automatic_questions_dataframe/${embedding}_${llm}.csv
+  filepath: data/stepzz_evaluate/generated_answers_automatic_questions_dataframe/${embedding}_${llm}.csv
 
 generated_answers_automatic_questions_dataframe_all:
   type: PartitionedDataset
-  path: data/08_reporting/generated_answers_automatic_questions_dataframe
+  path: data/stepzz_evaluate/generated_answers_automatic_questions_dataframe
   dataset:
     type: pandas.CSVDataSet
     
 evaluation:
   type: pandas.CSVDataSet
-  filepath: data/08_reporting/11_evaluation.csv
+  filepath: data/stepzz_evaluate/11_evaluation.csv
 
 AB:
   type: pandas.CSVDataSet

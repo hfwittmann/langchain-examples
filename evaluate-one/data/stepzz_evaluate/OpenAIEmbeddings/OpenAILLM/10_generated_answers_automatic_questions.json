@@ -1,0 +1,30 @@
+{
+  "OpenAILLM": {
+    "OpenAIEmbeddings": {
+      "0": {
+        "llm_name": "OpenAILLM",
+        "question": "What is the name of the company mentioned in the text?",
+        "answer": "Lufthansa Industry Solutions",
+        "result": " I don't know.",
+        "source_documents": [],
+        "time_taken": 0.4218099117279053
+      },
+      "1": {
+        "llm_name": "OpenAILLM",
+        "question": "What can be found on the Lufthansa Industry Solutions website?",
+        "answer": "Press releases, interviews, new studies, and photos",
+        "result": "\nThe Lufthansa Industry Solutions website offers a range of services and solutions for the aviation industry, including consulting, software development, and digital transformation.",
+        "source_documents": [],
+        "time_taken": 1.3814377784729004
+      },
+      "2": {
+        "llm_name": "OpenAILLM",
+        "question": "What do three out of four companies expect a sustainability tool to do?",
+        "answer": "Three out of four companies expect a sustainability tool to fully automate reporting.",
+        "result": " Three out of four companies expect a sustainability tool to help them measure, track, and report on their sustainability performance.",
+        "source_documents": [],
+        "time_taken": 2.0551817417144775
+      }
+    }
+  }
+}

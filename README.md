@@ -20,3 +20,12 @@ OPENAI_API_KEY=sk-<SECRET>
 ```
 
 
+To run Kedro from the command line you can alternatively first do
+```
+export OPENAI_API_KEY=sk-<SECRET>
+```
+
+and then
+```
+kedro run
+```

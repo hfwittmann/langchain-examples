@@ -6,7 +6,7 @@
 
 chat:
   embeddings:
-    path: data/03_primary/embeddings
+    path: data/step03_store/embeddings
     collections: ['OpenAIEmbeddings', 'FalconEmbeddings']
   llms:
     collections: ['OpenAILLM']

@@ -4,6 +4,7 @@ generated using Kedro 0.18.13
 """
 import json
 import time
+from collections import defaultdict
 
 import chromadb
 from langchain.chains import RetrievalQA
@@ -12,12 +13,19 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.llms import GPT4All, OpenAI
 from langchain.schema import Document
 from langchain.vectorstores import Chroma
-from collections import defaultdict
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 def generate(
     docs_retrieved, questions, embedding, llm, embeddings, llms, models
 ):
+    """
+    questions: List of
+        - questions or alternatively
+        - questions and answers
+    """
     start = time.time()
     assert isinstance(questions, list) and not isinstance(questions, str)
 
@@ -59,7 +67,7 @@ def generate(
 
         generated_answers[llm_name][collection_name][ix] = {
             "llm_name": llm_name,
-            "question": q["question"],
+            **q,
             "result": result,
             "source_documents": docs_retrieved[collection_name][ix]["contexts"],
             "time_taken": time.time() - start,

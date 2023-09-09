@@ -1,0 +1,5 @@
+llm,embedding,question,answer,result,reference_llm_eval
+OpenAILLM,OpenAIEmbeddings,What is the name of the company mentioned in the text?,Lufthansa Industry Solutions, I don't know.,Lufthansa Industry Solutions
+OpenAILLM,OpenAIEmbeddings,What can be found on the Lufthansa Industry Solutions website?,"Press releases, interviews, new studies, and photos","
+The Lufthansa Industry Solutions website offers a range of services and solutions for the aviation industry, including consulting, software development, and digital transformation.","Press releases, interviews, new studies, and photos"
+OpenAILLM,OpenAIEmbeddings,What do three out of four companies expect a sustainability tool to do?,Three out of four companies expect a sustainability tool to fully automate reporting.," Three out of four companies expect a sustainability tool to help them measure, track, and report on their sustainability performance.",Three out of four companies expect a sustainability tool to fully automate reporting.
