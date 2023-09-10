@@ -1,0 +1,45 @@
+{
+  "FalconLLM": {
+    "OpenAIEmbeddings": {
+      "0": {
+        "llm_name": "FalconLLM",
+        "question": "What is the name of the company mentioned in the text?",
+        "answer": "Lufthansa Industry Solutions",
+        "result": " The name of the company mentioned in the text is not provided.",
+        "source_documents": [
+          "{\"page_content\": \"In short: It is about companies\\u2019 future viability.\", \"metadata\": {\"description\": \"As an IT consultant and systems integrator, Lufthansa Industry Solutions covers the whole range of IT services and assists companies during digitization and automation.\", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/company#partner\", \"title\": \"Your partner for IT consulting and systems integration\"}}",
+          "{\"page_content\": \"In short: It is about companies\\u2019 future viability.\", \"metadata\": {\"description\": \"As an IT consultant and systems integrator, Lufthansa Industry Solutions covers the whole range of IT services and assists companies during digitization and automation.\", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/company\", \"title\": \"Your partner for IT consulting and systems integration\"}}",
+          "{\"page_content\": \"In short: It is about companies\\u2019 future viability.\", \"metadata\": {\"description\": \"As an IT consultant and systems integrator, Lufthansa Industry Solutions covers the whole range of IT services and assists companies during digitization and automation.\", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/company#certification\", \"title\": \"Your partner for IT consulting and systems integration\"}}",
+          "{\"page_content\": \"In short: It is about companies\\u2019 future viability.\", \"metadata\": {\"description\": \"As an IT consultant and systems integrator, Lufthansa Industry Solutions covers the whole range of IT services and assists companies during digitization and automation.\", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/company#award\", \"title\": \"Your partner for IT consulting and systems integration\"}}"
+        ],
+        "time_taken": 16.58247971534729
+      },
+      "1": {
+        "llm_name": "FalconLLM",
+        "question": "What can be found on the Lufthansa Industry Solutions website?",
+        "answer": "Press releases, interviews, new studies, and photos",
+        "result": " The website provides information about the company's solutions and products, as well as references, career opportunities, events, newsroom and downloads, studies and whitepapers, contact information, and a search function.",
+        "source_documents": [
+          "{\"page_content\": \"About Lufthansa Industry Solutions\", \"metadata\": {\"description\": \"Expert interview on the current state of the technology and the benefits that companies can already derive from quantum computing. \", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/newsroom-downloads/news/quantum-computing-enormous-potential-for-optimization-solutions\", \"title\": \"Quantum computing: \\u201cEnormous potential for optimization solutions\\u201d\"}}",
+          "{\"page_content\": \"About Lufthansa Industry Solutions\", \"metadata\": {\"description\": \"Pod Group, SODAQ and Lufthansa Industry Solutions will unveil the first commercial smart label tracking device at CES.\", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/newsroom-downloads/news/ces-pod-group-sodaq-and-lhind-present-smart-label\", \"title\": \"Paper-thin localization solution from LHIND and partners opens up new possibilities for logistics\"}}",
+          "{\"page_content\": \"Links to Lufthansa Industry Solutions offerings on social networks\", \"metadata\": {\"description\": \"Here you can find information about data protection, Copyright and trademark law, collection, processing and use of personal data and data security.\", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/data-protection\", \"title\": \"Information about data protection | LHIND\"}}",
+          "{\"page_content\": \"Solutions and products by Lufthansa Industry Solutions\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n        Men\\u00fc\\n    \\n\\n\\n\\n\\nLufthansa Industry Solutions\\n\\n\\n\\n\\n\\n\\n\\n\\nSolutions & Products\\n\\n\\nReferences\\n\\n\\nCareer\\n\\n\\nCompany\\n\\n\\n\\n\\nEvents\\n\\n\\nNewsroom & Downloads\\n\\n\\nStudies & Whitepaper\\n\\n\\n\\n\\n\\n\\n\\nContact\\n\\n\\nSearch\\n\\n\\nDeutsch\\n\\n\\n\\n\\n\\nCancel with ESC / Start with Enter\\n\\nSearch term\\n\\n\\n\\n\\nStart search\\n\\n\\n\\n\\n\\n\\n\\n\\n            Share this page\\n        \\n\\n\\n                LinkedIn\", \"metadata\": {\"description\": \"Lufthansa Industry Solutions assists companies in the digitization and automation of business processes with a diverse range of IT solutions and products.\", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/solutions-products\", \"title\": \"Solutions and products by Lufthansa Industry Solutions\"}}"
+        ],
+        "time_taken": 48.30648636817932
+      },
+      "2": {
+        "llm_name": "FalconLLM",
+        "question": "What do three out of four companies expect a sustainability tool to do?",
+        "answer": "Three out of four companies expect a sustainability tool to fully automate reporting.",
+        "result": " Three out of four companies expect a sustainability tool to fully automate reporting.",
+        "source_documents": [
+          "{\"page_content\": \"Study IT & Sustainability: Three out of four companies expect a sustainability tool to fully automate reporting.\\n\\n                                Many companies still rely on the on-board tools of large software and cloud providers, leaving optimization potential untapped.\\n                            \\nMore information\\n\\n\\n#\\nNews\\n\\n#News\\n#Company\\n#Automotive\\n#Industry\", \"metadata\": {\"description\": \"Lufthansa Industry Solutions helps industrial companies to harness the opportunities provided by Industry 4.0 and new technologies such as cloud computing, mobile solutions and big data analytics.\", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/solutions-products/industry\", \"title\": \"Industry: more competitive through digitization\"}}",
+          "{\"page_content\": \"Study IT & Sustainability: Three out of four companies expect a sustainability tool to fully automate reporting.\\n\\n                                Many companies still rely on the on-board tools of large software and cloud providers, leaving optimization potential untapped.\\n                            \\nMore information\\n\\n\\n#\\nNews\\n\\n#News\\n#Company\\n#Automotive\\n#Industry\", \"metadata\": {\"description\": \"Mobile vehicle services or secure communications with the back end of the automotive industry: Lufthansa Industry Solutions is helping the industry to face these challenges with its professional expertise.\", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/solutions-products/automotive\", \"title\": \"Automotive industry: IT consulting \\u00bb digital transformation | LHIND\"}}",
+          "{\"page_content\": \"Study IT & Sustainability: Three out of four companies expect a sustainability tool to fully automate reporting.\\n\\n                                Many companies still rely on the on-board tools of large software and cloud providers, leaving optimization potential untapped.\\n                            \\nMore information\\n\\n\\n#\\nNews\\n\\n#News\\n#Company\\n#Automotive\\n#Industry\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nWhite paper: ESG reporting\", \"metadata\": {\"description\": \"Lufthansa Industry Solutions assists companies in the digitization and automation of business processes with a diverse range of IT solutions and products.\", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/solutions-products\", \"title\": \"Solutions and products by Lufthansa Industry Solutions\"}}",
+          "{\"page_content\": \"Email\\n            \\n\\n\\n\\n\\n\\n\\n\\n                News\\n            \\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nSeptember  5, 2023\\n\\n\\n\\n                        \\n                                Study IT & Sustainability: Three out of four companies expect a sustainability tool to fully automate reporting.\", \"metadata\": {\"description\": \"All news about Lufthansa Industry Solutions at a glance | Read and inform now\", \"language\": \"en\", \"source\": \"https://www.lufthansa-industry-solutions.com/de-en/newsroom-downloads/news\", \"title\": \"All news at a glance | LHIND\"}}"
+        ],
+        "time_taken": 89.17009210586548
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "FalconLLM": {
+    "OpenAIEmbeddings": {
+      "result": {
+        "question": "What is his role at Lufthansa?",
+        "chat_history": [
+          "{\"content\": \"Who is Bernhard Kube?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube is the Vice President of Technology Consulting, Research & Standards at LHIND.\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \"What is his role at Lufthansa?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \"  As a Digitalization Consultant at LH, he is responsible for developing and implementing digital solutions for logistics processes in the port of Hamburg. He works closely with clients to identify their needs and develop customized solutions that improve efficiency and reduce costs. He also leads teams of developers and testers to ensure successful implementation of these solutions.\", \"additional_kwargs\": {}, \"example\": false}"
+        ],
+        "answer": "  As a Digitalization Consultant at LH, he is responsible for developing and implementing digital solutions for logistics processes in the port of Hamburg. He works closely with clients to identify their needs and develop customized solutions that improve efficiency and reduce costs. He also leads teams of developers and testers to ensure successful implementation of these solutions."
+      },
+      "time_taken": 94.3549222946167
+    }
+  }
+}

@@ -14,7 +14,7 @@ def register_pipelines() -> dict[str, Pipeline]:
     pipelines = find_pipelines()
     pipelines["__default__"] = sum(pipelines.values())
 
-    pipelines["simple"] = pipeline(
+    pipelines["get_webdata"] = pipeline(
         [
             p_value
             for p_key, p_value in pipelines.items()
@@ -22,6 +22,16 @@ def register_pipelines() -> dict[str, Pipeline]:
             in [
                 "step01_load",
                 "step02_split",
+            ]
+        ]
+    )
+
+    pipelines["simple"] = pipeline(
+        [
+            p_value
+            for p_key, p_value in pipelines.items()
+            if p_key
+            in [
                 "step03_store",
                 "step04_retrieve",
                 "step05_generate",
@@ -36,5 +46,6 @@ def register_pipelines() -> dict[str, Pipeline]:
     )
 
     pipelines["evaluate"] = pipeline(pipelines["stepzz_evaluate"])
+    pipelines["evaluate_one"] = pipeline(pipelines["stepzz_evaluate_one"])
 
     return pipelines

@@ -65,6 +65,16 @@ evaluation:
   type: pandas.CSVDataSet
   filepath: data/stepzz_evaluate/11_evaluation.csv
 
+evaluation_metrics:
+  type: kedro_mlflow.io.metrics.MlflowMetricsDataSet
+  prefix: ''
+
+evaluation_QAs_embedding_llm:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+    type: pandas.CSVDataSet  # or any valid kedro DataSet
+    filepath: data/stepzz_evaluate_one/${embedding}/${llm}/evaluation.csv # must be a local file, wherever you want to log the data in the end
+
 AB:
   type: pandas.CSVDataSet
   filepath: data/01_raw/AB.csv

@@ -1,0 +1,1 @@
+{'evaluator': 'OpenAILLM', 'collections': ['OpenAILLM', 'FalconLLM']}

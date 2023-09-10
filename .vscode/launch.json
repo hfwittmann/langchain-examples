@@ -33,10 +33,11 @@
             "console": "integratedTerminal",
             "module": "kedro",
             "cwd": "${workspaceFolder}/evaluate-one",
+            "justMyCode": false,
             "args": [
                 "run",
                 "--pipeline",
-                "stepzz_evaluate",
+                "stepzz_evaluate_one",
                 // "--nodes",
                 // "transform_questions_2_dataframe "
             ]

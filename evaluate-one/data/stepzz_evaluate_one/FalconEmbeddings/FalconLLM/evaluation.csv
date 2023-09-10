@@ -1,0 +1,54 @@
+answer,embedding,llm,question,reference_llm_eval,result,conciseness_reasoning,conciseness_value,conciseness_score,relevance_reasoning,relevance_value,relevance_score,correctness_reasoning,correctness_value,correctness_score
+Lufthansa Industry Solutions,FalconEmbeddings,FalconLLM,What is the name of the company mentioned in the text?,Lufthansa Industry Solutions, The name of the company mentioned in the text is not provided.,"Step 1: Analyze the criteria. The criteria is ""conciseness: Is the submission concise and to the point?""
+
+Step 2: Analyze the submission. The submission is ""The name of the company mentioned in the text is not provided.""
+
+Step 3: Determine if the submission meets the criteria. The submission is concise and to the point, so it meets the criteria.
+
+Y",Y,1,"Step 1: The criteria is relevance: Is the submission referring to a real quote from the text?
+Step 2: The submission does not refer to a real quote from the text.
+Step 3: The submission does not meet the criteria.
+
+N",N,0,"Step 1: The criteria is ""correctness: Is the submission correct, accurate, and factual?""
+
+Step 2: The submission states that ""The name of the company mentioned in the text is not provided.""
+
+Step 3: The reference states that the company mentioned in the text is ""Lufthansa Industry Solutions"".
+
+Step 4: The submission is not correct, accurate, and factual.
+
+N",N,0
+"Press releases, interviews, new studies, and photos",FalconEmbeddings,FalconLLM,What can be found on the Lufthansa Industry Solutions website?,"Press releases, interviews, new studies, and photos"," The website provides information about the company's services, including IT consulting and system integration, as well as case studies and testimonials from clients. It also includes a section for job seekers with opportunities to apply for open positions within the company.","Step 1: Read the criteria: conciseness: Is the submission concise and to the point?
+
+Step 2: Read the submission: The website provides information about the company's services, including IT consulting and system integration, as well as case studies and testimonials from clients. It also includes a section for job seekers with opportunities to apply for open positions within the company.
+
+Step 3: Analyze the submission: The submission is concise and to the point, providing a clear answer to the input question.
+
+Step 4: Determine if the submission meets the criteria: Yes, the submission meets the criteria.
+
+Y",Y,1,"Step 1: Does the submission refer to a real quote from the text?
+
+No, the submission does not refer to a real quote from the text. The criteria states that the reference is press releases, interviews, new studies, and photos. The submission does not refer to any of these.
+
+N",N,0,"Step 1: Read the criteria: correctness: Is the submission correct, accurate, and factual?
+
+Step 2: Read the submission: The website provides information about the company's services, including IT consulting and system integration, as well as case studies and testimonials from clients. It also includes a section for job seekers with opportunities to apply for open positions within the company.
+
+Step 3: Compare the submission to the reference material: Press releases, interviews, new studies, and photos.
+
+Step 4: Determine if the submission is correct, accurate, and factual: Yes, the submission is correct, accurate, and factual.
+
+Y",Y,1
+Three out of four companies expect a sustainability tool to fully automate reporting.,FalconEmbeddings,FalconLLM,What do three out of four companies expect a sustainability tool to do?,Three out of four companies expect a sustainability tool to fully automate reporting., Three out of four companies expect a sustainability tool to fully automate reporting.,"Yes, the submission is concise and to the point.
+
+The submission is exactly the same as the reference, which is concise and to the point.
+
+Y",Y,1,"Step 1: Check if the submission is referring to a real quote from the text.
+
+Step 2: Compare the submission to the reference.
+
+Step 3: Determine if the submission is the same as the reference.",Y,1,"Step 1: Compare the submission to the reference.
+Step 2: Determine if the submission is correct, accurate, and factual.
+Step 3: If the submission is the same as the reference, then it is correct, accurate, and factual.
+
+Y",Y,1

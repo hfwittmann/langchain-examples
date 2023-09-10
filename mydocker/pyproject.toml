@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mygpt4all"
+version = "0.1.0"
+description = ""
+authors = ["H. Felix Wittmann"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gpt4all = "1.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
