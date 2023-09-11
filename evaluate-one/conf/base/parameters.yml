@@ -5,15 +5,24 @@ multiplier: ${globals:multiplier}
 
 models:
   falcon:
-    user_local_path: /home/hfwittmann/.cache/gpt4all/ggml-model-gpt4all-falcon-q4_0.bin
+    user_local_path: ${modelpath}/ggml-model-gpt4all-falcon-q4_0.bin
+
+  orca_3:
+    user_local_path: ${modelpath}orca-mini-3b.ggmlv3.q4_0.bin
+
+  orca_7:
+    user_local_path: ${modelpath}/orca-mini-7b.ggmlv3.q4_0.bin
+
+  orca_13:
+    user_local_path: ${modelpath}/orca-mini-13b.ggmlv3.q4_0.bin  
   
 embeddings:
   path: data/step03_store/${embedding}
-  collections: ['OpenAIEmbeddings', 'FalconEmbeddings']
+  collections: ['OpenAIEmbeddings', 'FalconEmbeddings', 'Orca3Embeddings', 'Orca7Embeddings', 'Orca13Embeddings']
 
 llms:
   evaluator: OpenAILLM
-  collections: ['OpenAILLM', 'FalconLLM']
+  collections: ['OpenAILLM', 'FalconLLM', 'Orca3LLM', 'Orca7LLM', 'Orca13LLM']
 
 embedding: ${embedding}
 llm: ${llm}

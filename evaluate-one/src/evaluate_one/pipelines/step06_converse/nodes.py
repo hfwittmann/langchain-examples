@@ -37,12 +37,30 @@ def converse(chat_questions, embedding, llm, embeddings, llms, models):
         "FalconLLM": lambda: GPT4All(
             model=models["falcon"]["user_local_path"], verbose=True
         ),
+        "Orca3LLM": lambda: GPT4All(
+            model=models["orca_3"]["user_local_path"], verbose=True
+        ),
+        "Orca7LLM": lambda: GPT4All(
+            model=models["orca_7"]["user_local_path"], verbose=True
+        ),
+        "Orca13LLM": lambda: GPT4All(
+            model=models["orca_13"]["user_local_path"], verbose=True
+        ),
     }[llm_name]
 
     embedding = {
         "OpenAIEmbeddings": OpenAIEmbeddings(),
         "FalconEmbeddings": GPT4AllEmbeddings(
             model=models["falcon"]["user_local_path"]
+        ),
+        "Orca3Embeddings": GPT4AllEmbeddings(
+            model=models["orca_3"]["user_local_path"]
+        ),
+        "Orca7Embeddings": GPT4AllEmbeddings(
+            model=models["orca_7"]["user_local_path"]
+        ),
+        "Orca13Embeddings": GPT4AllEmbeddings(
+            model=models["orca_13"]["user_local_path"]
         ),
     }[collection_name]
 

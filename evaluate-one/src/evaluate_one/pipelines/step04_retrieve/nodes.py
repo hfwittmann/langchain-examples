@@ -31,6 +31,15 @@ def retrieve(_, questions, embedding, embeddings, models):
         "FalconEmbeddings": GPT4AllEmbeddings(
             model=models["falcon"]["user_local_path"]
         ),
+        "Orca3Embeddings": GPT4AllEmbeddings(
+            model=models["orca_3"]["user_local_path"]
+        ),
+        "Orca7Embeddings": GPT4AllEmbeddings(
+            model=models["orca_7"]["user_local_path"]
+        ),
+        "Orca13Embeddings": GPT4AllEmbeddings(
+            model=models["orca_13"]["user_local_path"]
+        ),
     }[collection_name]
 
     retrieved_documents[collection_name] = dict()

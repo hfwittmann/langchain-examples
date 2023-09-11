@@ -1,0 +1,15 @@
+artifact_uri: file:///home/hfwittmann/Sync/DataScience/mylangchain/langchain-examples/evaluate-one/mlruns/407273922445014955/49130f777a514ebabd165ee8aad46736/artifacts
+end_time: 1694432460525
+entry_point_name: ''
+experiment_id: '407273922445014955'
+lifecycle_stage: active
+run_id: 49130f777a514ebabd165ee8aad46736
+run_name: stepzz_evaluate_one
+run_uuid: 49130f777a514ebabd165ee8aad46736
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694432460305
+status: 3
+tags: []
+user_id: hfwittmann

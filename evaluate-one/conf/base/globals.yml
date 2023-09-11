@@ -1,4 +1,6 @@
 multiplier: 10
 
-embedding: FalconEmbeddings # OpenAIEmbeddings # ['OpenAIEmbeddings', 'FalconEmbeddings']# CURRENT_embedding
-llm: OpenAILLM # CURRENT_LLM
+embedding: Orca3Embeddings # FalconEmbeddings # OpenAIEmbeddings # ['OpenAIEmbeddings', 'FalconEmbeddings']# CURRENT_embedding
+llm: Orca3LLM # OpenAILLM # CURRENT_LLM
+
+modelpath: /home/hfwittmann/Sync/DataScience/mylangchain/langchain-examples/gpt4all-files/

@@ -1,0 +1,17 @@
+{
+  "Orca3LLM": {
+    "Orca3Embeddings": {
+      "result": {
+        "question": "What is his role at Lufthansa?",
+        "chat_history": [
+          "{\"content\": \"Who is Bernhard Kube?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube is a German technology executive who serves as the Vice President of Artificial Intelligence and Data Analytics at Lufthansa Industry Solutions.\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \"What is his role at Lufthansa?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube is the CEO of Lufthansa Industry Solutions, a division of Lufthansa that provides services to airlines, airports, and other industries.\", \"additional_kwargs\": {}, \"example\": false}"
+        ],
+        "answer": " Bernhard Kube is the CEO of Lufthansa Industry Solutions, a division of Lufthansa that provides services to airlines, airports, and other industries."
+      },
+      "time_taken": 64.86282873153687
+    }
+  }
+}

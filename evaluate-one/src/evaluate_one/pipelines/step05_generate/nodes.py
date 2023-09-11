@@ -39,6 +39,15 @@ def generate(
         "FalconLLM": lambda: GPT4All(
             model=models["falcon"]["user_local_path"], verbose=True
         ),
+        "Orca3LLM": lambda: GPT4All(
+            model=models["orca_3"]["user_local_path"], verbose=True
+        ),
+        "Orca7LLM": lambda: GPT4All(
+            model=models["orca_7"]["user_local_path"], verbose=True
+        ),
+        "Orca13LLM": lambda: GPT4All(
+            model=models["orca_13"]["user_local_path"], verbose=True
+        ),
     }[llm_name]
 
     chain = load_qa_chain(llm=llm_function(), chain_type="stuff")

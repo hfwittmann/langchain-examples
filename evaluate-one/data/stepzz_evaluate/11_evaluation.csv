@@ -17,7 +17,7 @@ Step 3: The reference states that the company mentioned in the text is ""Lufthan
 
 Step 4: The submission is not correct, accurate, and factual.
 
-N",N,0
+N",N,0.0
 "Press releases, interviews, new studies, and photos",FalconEmbeddings,FalconLLM,What can be found on the Lufthansa Industry Solutions website?,"Press releases, interviews, new studies, and photos"," The website provides information about the company's services, including IT consulting and system integration, as well as case studies and testimonials from clients. It also includes a section for job seekers with opportunities to apply for open positions within the company.","Step 1: Read the criteria: conciseness: Is the submission concise and to the point?
 
 Step 2: Read the submission: The website provides information about the company's services, including IT consulting and system integration, as well as case studies and testimonials from clients. It also includes a section for job seekers with opportunities to apply for open positions within the company.
@@ -28,7 +28,7 @@ Step 4: Determine if the submission meets the criteria: Yes, the submission meet
 
 Y",Y,1,"Step 1: Does the submission refer to a real quote from the text?
 
-No, the submission does not refer to a real quote from the text. The criteria states that the reference is press releases, interviews, new studies, and photos. The submission does not refer to any of these.
+No, the submission does not refer to a real quote from the text.
 
 N",N,0,"Step 1: Read the criteria: correctness: Is the submission correct, accurate, and factual?
 
@@ -38,8 +38,46 @@ Step 3: Compare the submission to the reference material: Press releases, interv
 
 Step 4: Determine if the submission is correct, accurate, and factual: Yes, the submission is correct, accurate, and factual.
 
-Y",Y,1
+Y",Y,1.0
 Three out of four companies expect a sustainability tool to fully automate reporting.,FalconEmbeddings,FalconLLM,What do three out of four companies expect a sustainability tool to do?,Three out of four companies expect a sustainability tool to fully automate reporting., Three out of four companies expect a sustainability tool to fully automate reporting.,"Yes, the submission is concise and to the point.
+
+The submission is only one sentence long and directly answers the question. It is also consistent with the reference.
+
+Y",Y,1,"Step 1: Check if the submission is referring to a real quote from the text.
+
+Step 2: Compare the submission to the reference.
+
+Step 3: Determine if the submission is the same as the reference.",Y,1,"Step 1: Compare the submission to the reference.
+Step 2: Determine if the submission is correct, accurate, and factual.
+Step 3: If the submission is the same as the reference, then it is correct, accurate, and factual.
+
+Y",Y,1.0
+Lufthansa Industry Solutions,FalconEmbeddings,OpenAILLM,What is the name of the company mentioned in the text?,Lufthansa Industry Solutions," The text does not mention a specific company, so the answer is not known.","Yes, the submission is concise and to the point. It does not provide any unnecessary information and clearly states that the answer is not known.
+
+Y",Y,1,"Step 1: The criteria is relevance: Is the submission referring to a real quote from the text?
+Step 2: The submission does not refer to a real quote from the text, as it states that the text does not mention a specific company.
+Step 3: The submission does not meet the criteria.
+N",N,0,"Step 1: The criteria is ""correctness: Is the submission correct, accurate, and factual?""
+
+Step 2: The submission states that the text does not mention a specific company, which is accurate and factual.
+
+Step 3: The submission is correct, accurate, and factual.
+
+Y",Y,1.0
+"Press releases, interviews, new studies, and photos",FalconEmbeddings,OpenAILLM,What can be found on the Lufthansa Industry Solutions website?,"Press releases, interviews, new studies, and photos"," Information about IT consulting and system integration services, as well as information about the company's customer base, locations, and staff.","Yes, the submission is concise and to the point. It does not include any unnecessary information or references to the press releases, interviews, new studies, and photos.
+
+Y",Y,1,"The submission does not refer to a real quote from the text, so the first criterion is not met.
+
+N",N,0,"Step 1: Check the criteria. The criteria is ""correctness: Is the submission correct, accurate, and factual?""
+
+Step 2: Check the submission. The submission is ""Information about IT consulting and system integration services, as well as information about the company's customer base, locations, and staff.""
+
+Step 3: Check the reference. The reference is ""Press releases, interviews, new studies, and photos.""
+
+Step 4: Determine if the submission is correct, accurate, and factual. Based on the reference, it appears that the submission is correct, accurate, and factual.
+
+Y",Y,1.0
+Three out of four companies expect a sustainability tool to fully automate reporting.,FalconEmbeddings,OpenAILLM,What do three out of four companies expect a sustainability tool to do?,Three out of four companies expect a sustainability tool to fully automate reporting., Three out of four companies expect a sustainability tool to fully automate reporting.,"Yes, the submission is concise and to the point.
 
 The submission is exactly the same as the reference, which is concise and to the point.
 
@@ -51,50 +89,7 @@ Step 3: Determine if the submission is the same as the reference.",Y,1,"Step 1: 
 Step 2: Determine if the submission is correct, accurate, and factual.
 Step 3: If the submission is the same as the reference, then it is correct, accurate, and factual.
 
-Y",Y,1
-Lufthansa Industry Solutions,FalconEmbeddings,OpenAILLM,What is the name of the company mentioned in the text?,Lufthansa Industry Solutions," The text does not mention a specific company, so the answer is not known.","Yes, the submission is concise and to the point. It does not provide any unnecessary information and clearly states that the answer is not known.
-
-Y",Y,1,"The submission states that the text does not mention a specific company, so the answer is not known. This is relevant to the criteria, as it is referring to a real quote from the text.
-
-Y",Y,1,"Step 1: The criteria is ""correctness: Is the submission correct, accurate, and factual?""
-
-Step 2: The submission states that the text does not mention a specific company, which is accurate and factual.
-
-Step 3: The submission is correct, accurate, and factual.
-
-Y",Y,1
-"Press releases, interviews, new studies, and photos",FalconEmbeddings,OpenAILLM,What can be found on the Lufthansa Industry Solutions website?,"Press releases, interviews, new studies, and photos"," Information about IT consulting and system integration services, as well as information about the company's customer base, locations, and staff.","Yes, the submission is concise and to the point. It does not include any unnecessary information or references to the reference material.
-
-Y",Y,1,"The submission does not refer to a real quote from the text, so the first criterion is not met.
-
-N",N,0,"Step 1: Check the criteria. The criteria is ""correctness: Is the submission correct, accurate, and factual?""
-
-Step 2: Check the submission. The submission is ""Information about IT consulting and system integration services, as well as information about the company's customer base, locations, and staff.""
-
-Step 3: Check the reference. The reference is ""Press releases, interviews, new studies, and photos.""
-
-Step 4: Determine if the submission is correct, accurate, and factual. The submission is correct, accurate, and factual based on the reference.
-
-Y",Y,1
-Three out of four companies expect a sustainability tool to fully automate reporting.,FalconEmbeddings,OpenAILLM,What do three out of four companies expect a sustainability tool to do?,Three out of four companies expect a sustainability tool to fully automate reporting., Three out of four companies expect a sustainability tool to fully automate reporting.,"Yes, the submission is concise and to the point.
-
-The submission is only one sentence long and directly answers the question. It is also consistent with the reference.
-
-Y",Y,1,"Step 1: Read the criteria: ""relevance: Is the submission referring to a real quote from the text?""
-
-Step 2: Read the reference: ""Three out of four companies expect a sustainability tool to fully automate reporting.""
-
-Step 3: Read the submission: ""Three out of four companies expect a sustainability tool to fully automate reporting.""
-
-Step 4: Compare the reference and the submission.
-
-Step 5: The submission is referring to a real quote from the text.
-
-Y",Y,1,"Step 1: Compare the submission to the reference.
-Step 2: Determine if the submission is correct, accurate, and factual.
-Step 3: If the submission is the same as the reference, then it is correct, accurate, and factual.
-
-Y",Y,1
+Y",Y,1.0
 Lufthansa Industry Solutions,OpenAIEmbeddings,FalconLLM,What is the name of the company mentioned in the text?,Lufthansa Industry Solutions, The name of the company mentioned in the text is not provided.,"Step 1: Analyze the criteria. The criteria is ""conciseness: Is the submission concise and to the point?""
 
 Step 2: Analyze the submission. The submission is ""The name of the company mentioned in the text is not provided.""
@@ -113,24 +108,25 @@ Step 3: The reference states that the company mentioned in the text is ""Lufthan
 
 Step 4: The submission is not correct, accurate, and factual.
 
-N",N,0
+N",N,0.0
 "Press releases, interviews, new studies, and photos",OpenAIEmbeddings,FalconLLM,What can be found on the Lufthansa Industry Solutions website?,"Press releases, interviews, new studies, and photos"," The website provides information about the company's solutions and products, as well as references, career opportunities, events, newsroom and downloads, studies and whitepapers, contact information, and a search function.","Step 1: Read the criteria: conciseness: Is the submission concise and to the point?
 
 Step 2: Read the submission: The website provides information about the company's solutions and products, as well as references, career opportunities, events, newsroom and downloads, studies and whitepapers, contact information, and a search function.
 
 Step 3: Compare the criteria and the submission: The submission is not concise and to the point, as it provides more information than is necessary to answer the input.
 
-N",N,0,"Step 1: Does the submission refer to a real quote from the text?
+N",N,0,"Step 1: Read the criteria and the submission.
 
-The submission does not refer to a real quote from the text, as the text only mentions press releases, interviews, new studies, and photos.
+Step 2: Determine if the submission is referring to a real quote from the text.
+
+Step 3: Compare the submission to the reference.
+
+Step 4: Determine if the submission is relevant to the reference.
 
 N",N,0,"Step 1: Does the submission provide information that is correct, accurate, and factual?
-Yes, the submission provides information that is correct, accurate, and factual.
+Yes, the submission provides information that is correct, accurate, and factual. It mentions the company's solutions and products, references, career opportunities, events, newsroom and downloads, studies and whitepapers, contact information, and a search function.
 
-Step 2: Does the submission provide information that is referenced in the reference section?
-No, the submission does not provide information that is referenced in the reference section.
-
-N",N,0
+Y",Y,1.0
 Three out of four companies expect a sustainability tool to fully automate reporting.,OpenAIEmbeddings,FalconLLM,What do three out of four companies expect a sustainability tool to do?,Three out of four companies expect a sustainability tool to fully automate reporting., Three out of four companies expect a sustainability tool to fully automate reporting.,"Yes, the submission is concise and to the point.
 
 The submission is only one sentence long and directly answers the question. It is also consistent with the reference.
@@ -149,26 +145,18 @@ Y",Y,1,"Step 1: Compare the submission to the reference.
 Step 2: Determine if the submission is correct, accurate, and factual.
 Step 3: If the submission is the same as the reference, then it is correct, accurate, and factual.
 
-Y",Y,1
-Lufthansa Industry Solutions,OpenAIEmbeddings,OpenAILLM,What is the name of the company mentioned in the text?,Lufthansa Industry Solutions, The company mentioned in the text is LHIND » Digital transformation - IT consulting.,"Yes, the submission is concise and to the point. It provides the name of the company, Lufthansa Industry Solutions, without any unnecessary information.
+Y",Y,1.0
+Lufthansa Industry Solutions,OpenAIEmbeddings,OpenAILLM,What is the name of the company mentioned in the text?,Lufthansa Industry Solutions," The text does not mention a specific company, so the answer is not known.","Yes, the submission is concise and to the point. It does not provide any unnecessary information and clearly states that the answer is not known.
 
-Y",Y,1,"Step 1: Check if the submission is referring to a real quote from the text.
+Y",Y,1,"The submission states that the text does not mention a specific company, so the answer is not known. This is relevant to the criteria, as it is referring to a real quote from the text.
 
-The submission does not refer to a real quote from the text.
+Y",Y,1,"Step 1: The criteria is ""correctness: Is the submission correct, accurate, and factual?""
 
-N",N,0,"Step 1: Check if the submission is correct.
-The submission states that the company mentioned in the text is LHIND » Digital transformation - IT consulting.
+Step 2: The submission states that the text does not mention a specific company, which is accurate and factual.
 
-Step 2: Check if the submission is accurate.
-The submission accurately states the name of the company mentioned in the text.
+Step 3: The submission is correct, accurate, and factual.
 
-Step 3: Check if the submission is factual.
-The reference states that the company mentioned in the text is Lufthansa Industry Solutions.
-
-Step 4: Compare the submission to the reference.
-The submission does not match the reference.
-
-N",N,0
+Y",Y,1.0
 "Press releases, interviews, new studies, and photos",OpenAIEmbeddings,OpenAILLM,What can be found on the Lufthansa Industry Solutions website?,"Press releases, interviews, new studies, and photos"," The Lufthansa Industry Solutions website offers solutions and products, references, career information, company information, events, newsroom and downloads, studies and whitepapers, and contact information.","The submission states that the website offers solutions and products, references, career information, company information, events, newsroom and downloads, studies and whitepapers, and contact information. This is not concise and to the point, as it does not mention the press releases, interviews, new studies, and photos that are also available on the website.
 
 N",N,0,"Step 1: Does the submission refer to a real quote from the text?
@@ -179,23 +167,168 @@ N",N,0,"Step 1: Does the submission provide correct, accurate, and factual infor
 
 The submission provides a list of items that can be found on the Lufthansa Industry Solutions website, which is correct, accurate, and factual.
 
-Y",Y,1
+Y",Y,1.0
 Three out of four companies expect a sustainability tool to fully automate reporting.,OpenAIEmbeddings,OpenAILLM,What do three out of four companies expect a sustainability tool to do?,Three out of four companies expect a sustainability tool to fully automate reporting., Three out of four companies expect a sustainability tool to fully automate reporting.,"Yes, the submission is concise and to the point.
 
 The submission is only one sentence long and directly answers the question. It is also consistent with the reference.
 
-Y",Y,1,"Step 1: Read the criteria: ""relevance: Is the submission referring to a real quote from the text?""
+Y",Y,1,"Step 1: Check if the submission is referring to a real quote from the text.
 
-Step 2: Read the submission: ""Three out of four companies expect a sustainability tool to fully automate reporting.""
+Step 2: Compare the submission to the reference.
 
-Step 3: Read the reference: ""Three out of four companies expect a sustainability tool to fully automate reporting.""
+Step 3: Determine if the submission is the same as the reference.",Y,1,"Step 1: Compare the submission to the reference.
+Step 2: Determine if the submission is correct, accurate, and factual.
+Step 3: If the submission is the same as the reference, then it is correct, accurate, and factual.
 
-Step 4: Compare the submission and the reference.
+Y",Y,1.0
+Lufthansa Industry Solutions,Orca13Embeddings,Orca13LLM,What is the name of the company mentioned in the text?,Lufthansa Industry Solutions, The name of the company mentioned in the text is not provided.,"Step 1: Analyze the criteria. The criteria is ""conciseness: Is the submission concise and to the point?""
 
-Step 5: The submission and the reference are the same, so the submission meets the criteria.
+Step 2: Analyze the submission. The submission is ""The name of the company mentioned in the text is not provided.""
+
+Step 3: Determine if the submission meets the criteria. The submission is concise and to the point, so it meets the criteria.
+
+Y",Y,1,"Step 1: The criteria is relevance: Is the submission referring to a real quote from the text?
+Step 2: The submission does not refer to a real quote from the text.
+Step 3: The submission does not meet the criteria.
+
+N",N,0,"Step 1: The criteria is ""correctness: Is the submission correct, accurate, and factual?""
+
+Step 2: The submission states that ""The name of the company mentioned in the text is not provided.""
+
+Step 3: The reference states that the company mentioned in the text is ""Lufthansa Industry Solutions"".
+
+Step 4: The submission is not correct, accurate, and factual.
+
+N",N,0.0
+"Press releases, interviews, new studies, and photos",Orca13Embeddings,Orca13LLM,What can be found on the Lufthansa Industry Solutions website?,"Press releases, interviews, new studies, and photos"," The Lufthansa Industry Solutions website is a platform that provides information and resources for businesses looking to optimize their operations and improve their efficiency. It offers various tools, services, and solutions for industries such as healthcare, finance, and technology.","Step 1: Analyze the criteria. The criteria is ""conciseness: Is the submission concise and to the point?""
+
+Step 2: Analyze the submission. The submission is concise and to the point, providing a brief overview of the website and the services it offers.
+
+Step 3: Analyze the reference. The reference is not relevant to the criteria.
+
+Step 4: Determine if the submission meets the criteria. Yes, the submission meets the criteria.
+
+Y",Y,1,"Step 1: Does the submission refer to a real quote from the text?
+
+The submission does not refer to a real quote from the text, as the criteria states that the reference is press releases, interviews, new studies, and photos.
+
+N",N,0,"Step 1: Read the criteria: correctness: Is the submission correct, accurate, and factual?
+
+Step 2: Read the submission: The Lufthansa Industry Solutions website is a platform that provides information and resources for businesses looking to optimize their operations and improve their efficiency. It offers various tools, services, and solutions for industries such as healthcare, finance, and technology.
+
+Step 3: Compare the submission to the reference material: Press releases, interviews, new studies, and photos.
+
+Step 4: Determine if the submission is correct, accurate, and factual: Yes, the submission is correct, accurate, and factual.
+
+Y",Y,1.0
+Three out of four companies expect a sustainability tool to fully automate reporting.,Orca13Embeddings,Orca13LLM,What do three out of four companies expect a sustainability tool to do?,Three out of four companies expect a sustainability tool to fully automate reporting.," 
+
+A) Provide guidance on how to reduce carbon emissions and waste. 
+B) Optimize energy consumption in their operations. 
+C) Encourage sustainable practices among employees. 
+D) All of the above. 
+
+Explanation: The three out of four companies expect a sustainability tool to do all of the above. Providing guidance on how to reduce carbon emissions and waste, optimizing energy consumption in their operations, and encouraging sustainable practices among employees are all important aspects of a sustainability tool.","The submission is concise and to the point. It provides a clear answer to the input question and includes an explanation that supports the answer. The reference does not apply to the criteria, as it is not relevant to the conciseness of the submission.
+
+Y",Y,1,"No, the submission does not meet the criteria. 
+
+The submission does not refer to a real quote from the text, as the text states that three out of four companies expect a sustainability tool to ""fully automate reporting,"" while the submission does not mention this. 
+
+N",N,0,"The submission states that three out of four companies expect a sustainability tool to do A, B, C, and D. The criteria is correctness, which is whether the submission is correct, accurate, and factual. The reference states that three out of four companies expect a sustainability tool to fully automate reporting.
+
+The submission does not mention fully automating reporting, so it does not meet the criteria.
+
+N",N,0.0
+Lufthansa Industry Solutions,Orca3Embeddings,Orca3LLM,What is the name of the company mentioned in the text?,Lufthansa Industry Solutions, None needed as this question does not require a specific answer.,"Step 1: Analyze the criteria. The criteria is ""conciseness: Is the submission concise and to the point?""
+
+Step 2: Analyze the submission. The submission is ""None needed as this question does not require a specific answer.""
+
+Step 3: Analyze the reference. The reference is ""Lufthansa Industry Solutions.""
+
+Step 4: Determine if the submission meets the criteria. The submission is concise and to the point, as it does not require a specific answer.
+
+N",N,0,"Step 1: The criteria is relevance: Is the submission referring to a real quote from the text?
+Step 2: The submission does not refer to a real quote from the text.
+Step 3: Therefore, the submission does not meet the criteria.
+
+N",N,0,"Step 1: The criteria is correctness: Is the submission correct, accurate, and factual?
+
+Step 2: The submission states that no answer is needed, which is not accurate or factual.
+
+Step 3: The reference states that the company mentioned in the text is Lufthansa Industry Solutions.
+
+Step 4: The submission does not meet the criteria of correctness, accuracy, and factual.
+
+N",N,0.0
+"Press releases, interviews, new studies, and photos",Orca3Embeddings,Orca3LLM,What can be found on the Lufthansa Industry Solutions website?,"Press releases, interviews, new studies, and photos"," The Lufthansa Industry Solutions website provides information about its services, such as consulting and system integration for companies within and outside of the Lufthansa Group. It also offers resources like case studies, whitepapers, and webinars on topics related to digital transformation. Additionally, the site may contain job openings or news articles related to the company's activities.","The submission is concise and to the point. It provides a brief overview of the services offered by the website, as well as resources and other content that may be available. It does not include any unnecessary details or references to the criteria.
+
+Y",Y,1,"The submission does not refer to a real quote from the text, so it does not meet the criteria.
+N",N,0,"The submission states that the website provides information about its services, such as consulting and system integration for companies within and outside of the Lufthansa Group. It also offers resources like case studies, whitepapers, and webinars on topics related to digital transformation. Additionally, the site may contain job openings or news articles related to the company's activities.
+
+To assess if the submission meets the criteria of correctness, I will compare the submission to the reference material. The reference material includes press releases, interviews, new studies, and photos. I will look for evidence that the submission is correct, accurate, and factual.
+
+I will search the reference material for evidence that the website provides information about its services, such as consulting and system integration for companies within and outside of the Lufthansa Group. I will also search for evidence that the website offers resources like case studies, whitepapers, and webinars on topics related to digital transformation. Additionally, I will search for evidence that the site may contain job openings or news articles related to the company's activities.","After searching the reference material, I find evidence that the website provides information about its services, such as consulting and system integration for companies within and outside of the L",
+Three out of four companies expect a sustainability tool to fully automate reporting.,Orca3Embeddings,Orca3LLM,What do three out of four companies expect a sustainability tool to do?,Three out of four companies expect a sustainability tool to fully automate reporting.," 
+
+Three out of four companies expect a sustainability tool to fully automate reporting.","Yes, the submission is concise and to the point. The submission is exactly the same as the reference, which is concise and to the point.
+
+Y",Y,1,"Yes, the submission meets the criteria.
+
+Step 1: The criteria is relevance: Is the submission referring to a real quote from the text?
+
+Step 2: The reference is ""Three out of four companies expect a sustainability tool to fully automate reporting.""
+
+Step 3: The submission is ""Three out of four companies expect a sustainability tool to fully automate reporting.""
+
+Step 4: The submission is referring to the same quote as the reference.
 
 Y",Y,1,"Step 1: Compare the submission to the reference.
 Step 2: Determine if the submission is correct, accurate, and factual.
 Step 3: If the submission is the same as the reference, then it is correct, accurate, and factual.
 
-Y",Y,1
+Y",Y,1.0
+Lufthansa Industry Solutions,Orca7Embeddings,Orca7LLM,What is the name of the company mentioned in the text?,Lufthansa Industry Solutions," I'm sorry, but I cannot provide a specific answer without more context. Please provide me with additional information or the full text of the text.","Step 1: Analyze the criteria: The criteria is ""conciseness: Is the submission concise and to the point?""
+
+Step 2: Analyze the submission: The submission is ""I'm sorry, but I cannot provide a specific answer without more context. Please provide me with additional information or the full text of the text.""
+
+Step 3: Determine if the submission meets the criteria: The submission is not concise and to the point, as it does not provide an answer to the question.
+
+N",N,0,"No, the submission does not meet the criteria because it does not refer to a real quote from the text.
+N",N,0,"No, the submission does not meet the criteria. 
+
+The criteria is correctness: Is the submission correct, accurate, and factual?
+
+The submission does not provide a correct, accurate, and factual answer to the input. The submission does not provide the name of the company mentioned in the text, which is Lufthansa Industry Solutions.
+
+N",N,0.0
+"Press releases, interviews, new studies, and photos",Orca7Embeddings,Orca7LLM,What can be found on the Lufthansa Industry Solutions website?,"Press releases, interviews, new studies, and photos"," The Lufthansa Industry Solutions website is a platform where companies and organizations in various industries can find solutions for their business needs. Some of the services offered by Lufthansa Industry Solutions include consulting, engineering, IT services, and supply chain management. Additionally, the website provides access to case studies, industry reports, and events related to the aviation industry.","The submission is concise and to the point. It provides a brief overview of the services offered by Lufthansa Industry Solutions and the resources available on the website. It also mentions the reference materials available, such as press releases, interviews, new studies, and photos.
+
+Y",Y,1,"The submission does not refer to a real quote from the text, so the criteria of relevance is not met.
+N",N,0,"Step 1: Read the criteria and the submission.
+
+Step 2: Compare the submission to the criteria.
+
+Step 3: Check if the submission is correct, accurate, and factual.
+
+Step 4: Check if the submission is supported by the reference material.
+
+Step 5: Determine if the submission meets the criteria.
+
+Y",Y,1.0
+Three out of four companies expect a sustainability tool to fully automate reporting.,Orca7Embeddings,Orca7LLM,What do three out of four companies expect a sustainability tool to do?,Three out of four companies expect a sustainability tool to fully automate reporting., Three out of four companies expect a sustainability tool to help them measure and manage their environmental impact.,"Yes, the submission is concise and to the point. The submission does not include any unnecessary information and is only one sentence long.
+
+Y",Y,1,"No, the submission does not meet the criteria.
+
+Step 1: The criteria is relevance: Is the submission referring to a real quote from the text?
+Step 2: The submission does not refer to a real quote from the text.
+Step 3: Therefore, the submission does not meet the criteria.
+
+N",N,0,"Step 1: Read the criteria: correctness: Is the submission correct, accurate, and factual?
+
+Step 2: Read the submission: Three out of four companies expect a sustainability tool to help them measure and manage their environmental impact.
+
+Step 3: Read the reference: Three out of four companies expect a sustainability tool to fully automate reporting.
+
+Step 4: Compare the submission to the reference: The submission does not match the reference, as it does not mention automation.
+
+N",N,0.0

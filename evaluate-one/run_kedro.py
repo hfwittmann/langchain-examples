@@ -23,12 +23,24 @@ bootstrap_project(
 #     pass
 
 
-embeddings = ["OpenAIEmbeddings", "FalconEmbeddings"]
-llms = ["OpenAILLM", "FalconLLM"]
-
-combinations = [
-    (embedding, llm) for embedding in tqdm(embeddings) for llm in tqdm(llms)
+embeddings = [
+    "OpenAIEmbeddings",
+    "FalconEmbeddings",
+    "Orca3Embeddings",
+    "Orca7Embeddings",
+    "Orca13Embeddings",
 ]
+
+llms = ["OpenAILLM", "FalconLLM", "Orca3LLM", "Orca7LLM", "Orca13LLM"]
+
+
+# combinations = [
+#     (embedding, llm) for embedding in tqdm(embeddings) for llm in tqdm(llms)
+# ]
+combinations = [
+    (embedding, llm) for embedding, llm in tqdm(zip(embeddings, llms))
+]
+print(combinations)
 # combinations are ordered (embedding, llm) pairs
 
 # with KedroSession.create() as session:

@@ -1,0 +1,30 @@
+{
+  "Orca13LLM": {
+    "Orca13Embeddings": {
+      "0": {
+        "llm_name": "Orca13LLM",
+        "question": "What is the name of the company mentioned in the text?",
+        "answer": "Lufthansa Industry Solutions",
+        "result": " The name of the company mentioned in the text is not provided.",
+        "source_documents": [],
+        "time_taken": 17.521533966064453
+      },
+      "1": {
+        "llm_name": "Orca13LLM",
+        "question": "What can be found on the Lufthansa Industry Solutions website?",
+        "answer": "Press releases, interviews, new studies, and photos",
+        "result": " The Lufthansa Industry Solutions website is a platform that provides information and resources for businesses looking to optimize their operations and improve their efficiency. It offers various tools, services, and solutions for industries such as healthcare, finance, and technology.",
+        "source_documents": [],
+        "time_taken": 44.30225467681885
+      },
+      "2": {
+        "llm_name": "Orca13LLM",
+        "question": "What do three out of four companies expect a sustainability tool to do?",
+        "answer": "Three out of four companies expect a sustainability tool to fully automate reporting.",
+        "result": " \n\nA) Provide guidance on how to reduce carbon emissions and waste. \nB) Optimize energy consumption in their operations. \nC) Encourage sustainable practices among employees. \nD) All of the above. \n\nExplanation: The three out of four companies expect a sustainability tool to do all of the above. Providing guidance on how to reduce carbon emissions and waste, optimizing energy consumption in their operations, and encouraging sustainable practices among employees are all important aspects of a sustainability tool.",
+        "source_documents": [],
+        "time_taken": 85.34497356414795
+      }
+    }
+  }
+}
