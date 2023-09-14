@@ -1,1 +1,1 @@
-{"generated_answers_automatic_questions_dataframe": {"rows": 3, "columns": 6, "file_size": 1392}}
+{"evaluation": {"rows": 15, "columns": 15, "file_size": 24636}, "evaluation_QAs_embedding_llm": {"rows": 3, "columns": 15, "file_size": 5616}}

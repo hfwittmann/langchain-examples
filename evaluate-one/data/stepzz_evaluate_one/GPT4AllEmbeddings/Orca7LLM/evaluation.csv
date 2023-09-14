@@ -1,0 +1,62 @@
+answer,embedding,llm,question,reference_llm_eval,result,conciseness_reasoning,conciseness_value,conciseness_score,relevance_reasoning,relevance_value,relevance_score,correctness_reasoning,correctness_value,correctness_score
+LEAP,GPT4AllEmbeddings,Orca7LLM,What is the name of the asset tracking software mentioned in the text?,LEAP," The asset tracking software mentioned in the text is called ""LEAP"".","Step 1: Evaluate the criteria: conciseness: Is the submission concise and to the point?
+
+Step 2: Analyze the submission: The asset tracking software mentioned in the text is called ""LEAP"".
+
+Step 3: Determine if the submission meets the criteria: Yes, the submission is concise and to the point.
+
+Y",Y,1,"Step 1: Check if the submission is referring to a real quote from the text.
+Step 2: Check if the reference in the submission matches the reference in the criteria.
+Step 3: Compare the reference in the submission to the text.
+Step 4: Determine if the reference in the submission is mentioned in the text.
+
+Y",Y,1,"Step 1: Check if the submission is correct.
+The submission states that the asset tracking software mentioned in the text is called ""LEAP"".
+
+Step 2: Check if the submission is accurate.
+The submission accurately states that the asset tracking software mentioned in the text is called ""LEAP"".
+
+Step 3: Check if the submission is factual.
+The reference states that the asset tracking software mentioned in the text is called ""LEAP"".
+
+Step 4: Compare the submission to the criteria.
+The submission meets the criteria of correctness, accuracy, and factualness.
+
+Y",Y,1
+The purpose of the asset tracking software is to locate and monitor moving objects in real time.,GPT4AllEmbeddings,Orca7LLM,What is the purpose of the asset tracking software mentioned in the text?,The purpose of the asset tracking software is to locate and monitor moving objects in real time.," The purpose of the asset tracking software mentioned in the text is to collect and present data points such as temperature, air humidity, fill level, location, and any abrupt shocks. This information can be used for various purposes such as monitoring the health of an object, ensuring compliance with regulations, or optimizing maintenance schedules. By using this software, users can easily track and manage their assets in real-time, set up alarms based on specific thresholds, and gain insights into how their assets are performing over time.","The submission is concise and to the point. It provides a clear answer to the question and does not include any unnecessary information. It also provides additional information about the purpose of the asset tracking software, such as how it can be used to monitor the health of an object, ensure compliance with regulations, or optimize maintenance schedules. This additional information is relevant to the question and provides a more complete answer.
+
+Y",Y,1,"Step 1: Read the criteria and the reference.
+
+Step 2: Compare the submission to the reference.
+
+Step 3: Determine if the submission is referring to a real quote from the text.
+
+Step 4: Evaluate if the submission is relevant to the reference.
+
+Step 5: Determine if the submission meets the criteria.
+
+N",N,0,"The submission states that the purpose of the asset tracking software is to collect and present data points such as temperature, air humidity, fill level, location, and any abrupt shocks. This information can be used for various purposes such as monitoring the health of an object, ensuring compliance with regulations, or optimizing maintenance schedules. By using this software, users can easily track and manage their assets in real-time, set up alarms based on specific thresholds, and gain insights into how their assets are performing over time.
+
+The criteria is correctness: Is the submission correct, accurate, and factual?
+
+The reference states that the purpose of the asset tracking software is to locate and monitor moving objects in real time.
+
+The submission does not mention locating and monitoring moving objects in real time, so it does not meet the criteria.
+
+N",N,0
+LEAP offers companies a means of monitoring their objects using location and condition-based information.,GPT4AllEmbeddings,Orca7LLM,What does LEAP offer companies?,LEAP offers companies a means of monitoring their objects using location and condition-based information.," LEAP offers companies the ability to locate and track moving objects indoors or outdoors, optimize logistics processes, and develop their own business models in areas such as IoT, tracking, track and pay, tracking as a service, or geofencing. It also provides worldwide coverage through integration with various devices and mobile communications providers and helps minimize initial procurement costs through monthly payments. Additionally, LEAP enables companies to monitor the current location and condition of moving objects in real time, allowing for complete monitoring of their process chain.","The submission is not concise and to the point. The reference is more concise and to the point.
+N",N,0,"Yes, the submission meets the criteria.
+
+Step 1: The criteria is relevance: Is the submission referring to a real quote from the text?
+
+Step 2: The submission states that LEAP offers companies the ability to locate and track moving objects indoors or outdoors, optimize logistics processes, and develop their own business models in areas such as IoT, tracking, track and pay, tracking as a service, or geofencing. It also provides worldwide coverage through integration with various devices and mobile communications providers and helps minimize initial procurement costs through monthly payments. Additionally, LEAP enables companies to monitor the current location and condition of moving objects in real time, allowing for complete monitoring of their process chain.
+
+Step 3: The reference states that LEAP offers companies a means of monitoring their objects using location and condition-based information.
+
+Step 4: The submission is referring to a real quote from the text, as it is similar to the reference.",Y,1,"Step 1: Compare the submission to the reference.
+The submission includes all of the information in the reference, plus additional information about LEAP's features and benefits.
+
+Step 2: Determine if the submission is correct, accurate, and factual.
+The submission is correct, accurate, and factual.
+
+Y",Y,1

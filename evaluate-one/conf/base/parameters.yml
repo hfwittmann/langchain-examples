@@ -8,7 +8,7 @@ models:
     user_local_path: ${modelpath}/ggml-model-gpt4all-falcon-q4_0.bin
 
   orca_3:
-    user_local_path: ${modelpath}orca-mini-3b.ggmlv3.q4_0.bin
+    user_local_path: ${modelpath}/orca-mini-3b.ggmlv3.q4_0.bin
 
   orca_7:
     user_local_path: ${modelpath}/orca-mini-7b.ggmlv3.q4_0.bin

@@ -1,0 +1,56 @@
+answer,embedding,llm,question,reference_llm_eval,result,conciseness_reasoning,conciseness_value,conciseness_score,relevance_reasoning,relevance_value,relevance_score,correctness_reasoning,correctness_value,correctness_score
+LEAP,OpenAIEmbeddings,OpenAILLM,What is the name of the asset tracking software mentioned in the text?,LEAP, The asset tracking software mentioned in the text is called LEAP.,"Step 1: Evaluate the submission against the criteria of conciseness.
+
+The submission is concise and to the point, as it directly answers the question and provides the name of the asset tracking software.
+
+Y",Y,1,"Step 1: Check if the submission is referring to a real quote from the text.
+Step 2: Check if the reference in the submission matches the reference in the criteria.
+Step 3: Compare the reference in the submission to the text.
+Step 4: Determine if the reference in the submission is mentioned in the text.
+
+Y",Y,1,"Step 1: Check if the submission is correct.
+The submission states that the asset tracking software mentioned in the text is called LEAP.
+
+Step 2: Check if the submission is accurate.
+The submission accurately states that the asset tracking software mentioned in the text is called LEAP.
+
+Step 3: Check if the submission is factual.
+The reference provided confirms that the asset tracking software mentioned in the text is called LEAP, so the submission is factual.
+
+Y",Y,1
+The purpose of the asset tracking software is to locate and monitor moving objects in real time.,OpenAIEmbeddings,OpenAILLM,What is the purpose of the asset tracking software mentioned in the text?,The purpose of the asset tracking software is to locate and monitor moving objects in real time.," The asset tracking software helps companies monitor and manage objects in real time by collecting data points such as temperature, air humidity, fill level, location, and any abrupt shocks.","Step 1: Read the submission and the criteria.
+
+Step 2: Compare the submission to the criteria.
+
+Step 3: Determine if the submission is concise and to the point.
+
+Step 4: Compare the submission to the reference.
+
+Step 5: Determine if the submission is more concise and to the point than the reference.
+
+N",N,0,"Step 1: Does the submission refer to a real quote from the text?
+
+The submission does not directly refer to a real quote from the text.
+
+N",N,0,"Step 1: Compare the submission to the reference.
+Step 2: Determine if the submission is correct, accurate, and factual.
+Step 3: Check if the submission accurately describes the purpose of the asset tracking software.
+Step 4: Compare the submission to the reference to see if the submission is consistent with the reference.
+
+N",N,0
+LEAP offers companies a means of monitoring their objects using location and condition-based information.,OpenAIEmbeddings,OpenAILLM,What does LEAP offer companies?,LEAP offers companies a means of monitoring their objects using location and condition-based information.," LEAP offers companies a vendor-neutral locating solution that can be integrated seamlessly into existing processes. It is ideal for companies with a large number of moving objects whose location and/or condition play a crucial role in the company’s own business processes. It also offers potential uses for logistics management, IoT, tracking, track and pay, tracking as a service, or geofencing.","Step 1: Read the criteria: conciseness: Is the submission concise and to the point?
+
+Step 2: Compare the submission to the reference: The submission is more detailed than the reference, but it is still concise and to the point.
+
+Step 3: Determine if the submission meets the criteria: Yes, the submission is concise and to the point.
+
+Y",Y,1,"Yes, the submission meets the criteria.
+
+Step 1: Does the submission refer to a real quote from the text?
+
+Yes, the submission refers to a real quote from the text. The submission states that LEAP offers companies a vendor-neutral locating solution that can be integrated seamlessly into existing processes, which is similar to the reference that LEAP offers companies a means of monitoring their objects using location and condition-based information.",Y,1,"Step 1: Compare the submission to the reference.
+Step 2: Determine if the submission is correct, accurate, and factual.
+Step 3: Check if the submission accurately describes what LEAP offers companies.
+Step 4: Determine if the submission is complete and covers all aspects of what LEAP offers companies.
+
+Y",Y,1

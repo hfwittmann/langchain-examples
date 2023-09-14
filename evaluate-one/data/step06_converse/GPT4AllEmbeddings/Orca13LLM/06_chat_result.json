@@ -1,0 +1,17 @@
+{
+  "Orca13LLM": {
+    "GPT4AllEmbeddings": {
+      "result": {
+        "question": "What is his role at Lufthansa?",
+        "chat_history": [
+          "{\"content\": \"Who is Bernhard Kube?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube is a Vice President at Lufthansa Industry Solutions.\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \"What is his role at Lufthansa?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube is a person who works as an AI (Artificial Intelligence) expert at Lufthansa Industry Solutions.\", \"additional_kwargs\": {}, \"example\": false}"
+        ],
+        "answer": " Bernhard Kube is a person who works as an AI (Artificial Intelligence) expert at Lufthansa Industry Solutions."
+      },
+      "time_taken": 181.6022343635559
+    }
+  }
+}

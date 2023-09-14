@@ -1,0 +1,17 @@
+{
+  "Orca7LLM": {
+    "GPT4AllEmbeddings": {
+      "result": {
+        "question": "What is his role at Lufthansa?",
+        "chat_history": [
+          "{\"content\": \"Who is Bernhard Kube?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube is a Vice President Technology Consulting, Research & Standards at Lufthansa Industry Solutions TS GmbH.\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \"What is his role at Lufthansa?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" I'm sorry, but I cannot answer that question without more context. Could you please provide me with additional information or context about Bernhard Kube and his role at Lufthansa?\", \"additional_kwargs\": {}, \"example\": false}"
+        ],
+        "answer": " I'm sorry, but I cannot answer that question without more context. Could you please provide me with additional information or context about Bernhard Kube and his role at Lufthansa?"
+      },
+      "time_taken": 100.86142325401306
+    }
+  }
+}

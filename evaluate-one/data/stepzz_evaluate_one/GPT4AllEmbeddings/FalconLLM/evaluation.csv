@@ -1,0 +1,66 @@
+answer,embedding,llm,question,reference_llm_eval,result,conciseness_reasoning,conciseness_value,conciseness_score,relevance_reasoning,relevance_value,relevance_score,correctness_reasoning,correctness_value,correctness_score
+LEAP,GPT4AllEmbeddings,FalconLLM,What is the name of the asset tracking software mentioned in the text?,LEAP, LEAP,"Step 1: Evaluate the criteria: Is the submission concise and to the point?
+
+Step 2: Analyze the submission: The submission is LEAP.
+
+Step 3: Compare the submission to the criteria: The submission is concise and to the point.
+
+Step 4: Conclusion: The submission meets the criteria.
+
+Y",Y,1,"Step 1: Check if the submission is referring to a real quote from the text.
+Step 2: The submission is ""LEAP"".
+Step 3: Check if the text contains the word ""LEAP"".
+Step 4: If the text contains the word ""LEAP"", then the submission meets the criteria.
+
+Y",Y,1,"Step 1: Check if the submission is correct.
+The submission is ""LEAP"".
+
+Step 2: Check if the submission is accurate.
+The submission is ""LEAP"", which is the same as the reference.
+
+Step 3: Check if the submission is factual.
+The submission is ""LEAP"", which is a factual asset tracking software.
+
+Y",Y,1
+The purpose of the asset tracking software is to locate and monitor moving objects in real time.,GPT4AllEmbeddings,FalconLLM,What is the purpose of the asset tracking software mentioned in the text?,The purpose of the asset tracking software is to locate and monitor moving objects in real time.," The purpose of the asset tracking software mentioned in the text is to collect data points such as temperature, air humidity, fill level, location, and any abrupt shocks from sensors installed on various assets. This data is then presented on the LEAP locating platform, allowing for an overview of all the objects equipped with sensors, real-time viewing of relevant information, and configuration of alarms for specific thresholds.","Step 1: Read the criteria and the submission.
+
+Step 2: Compare the submission to the criteria.
+
+Step 3: The submission is concise and to the point, providing more detail than the reference while still being succinct.
+
+Y",Y,1,"Step 1: Read the submission and the criteria.
+
+Step 2: Compare the submission to the criteria.
+
+Step 3: Determine if the submission is referring to a real quote from the text.
+
+Step 4: Compare the submission to the reference.
+
+Step 5: Determine if the submission is referring to the same quote as the reference.
+
+N",N,0,"Step 1: Read the submission and criteria.
+
+Step 2: Compare the submission to the criteria.
+
+Step 3: The submission is correct, accurate, and factual.
+
+Y",Y,1
+LEAP offers companies a means of monitoring their objects using location and condition-based information.,GPT4AllEmbeddings,FalconLLM,What does LEAP offer companies?,LEAP offers companies a means of monitoring their objects using location and condition-based information.," LEAP offers companies the ability to optimize their supply chain, improve visibility into their assets, and increase efficiency through the use of sensors and mobile applications.","The submission is concise and to the point. It provides a clear answer to the question and does not include any unnecessary information. It is also similar to the reference, which provides additional evidence that the submission is concise.
+
+Y",Y,1,"Step 1: Read the submission and the criteria.
+
+Step 2: Compare the submission to the reference.
+
+Step 3: Determine if the submission is referring to a real quote from the text.
+
+Step 4: Evaluate if the submission is relevant to the reference.
+
+N",N,0,"Step 1: Compare the submission to the criteria. The criteria is ""correctness: Is the submission correct, accurate, and factual?""
+
+Step 2: Compare the submission to the reference. The reference states ""LEAP offers companies a means of monitoring their objects using location and condition-based information.""
+
+Step 3: The submission states ""LEAP offers companies the ability to optimize their supply chain, improve visibility into their assets, and increase efficiency through the use of sensors and mobile applications.""
+
+Step 4: The submission is correct, accurate, and factual as it matches the reference.
+
+Y",Y,1
