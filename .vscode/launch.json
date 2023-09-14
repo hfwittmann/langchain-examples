@@ -37,7 +37,7 @@
             "args": [
                 "run",
                 "--pipeline",
-                "stepzz_evaluate_one",
+                "step04_retrieve",
                 // "--nodes",
                 // "transform_questions_2_dataframe "
             ]

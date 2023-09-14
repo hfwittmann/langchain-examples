@@ -50,18 +50,7 @@ def converse(chat_questions, embedding, llm, embeddings, llms, models):
 
     embedding = {
         "OpenAIEmbeddings": OpenAIEmbeddings(),
-        "FalconEmbeddings": GPT4AllEmbeddings(
-            model=models["falcon"]["user_local_path"]
-        ),
-        "Orca3Embeddings": GPT4AllEmbeddings(
-            model=models["orca_3"]["user_local_path"]
-        ),
-        "Orca7Embeddings": GPT4AllEmbeddings(
-            model=models["orca_7"]["user_local_path"]
-        ),
-        "Orca13Embeddings": GPT4AllEmbeddings(
-            model=models["orca_13"]["user_local_path"]
-        ),
+        "GPT4AllEmbeddings": GPT4AllEmbeddings(),
     }[collection_name]
 
     # collection = persistent_client.get_or_create_collection("myopenai")

@@ -1,7 +1,7 @@
 multiplier: ${globals:multiplier}
 
 # llms: ['OpenAILLM', 'FalconLLM']
-# embeddings: ['OpenAIEmbeddings', 'FalconEmbeddings']
+# embeddings: ['OpenAIEmbeddings', 'GPT4AllEmbeddings']
 
 models:
   falcon:
@@ -18,7 +18,7 @@ models:
   
 embeddings:
   path: data/step03_store/${embedding}
-  collections: ['OpenAIEmbeddings', 'FalconEmbeddings', 'Orca3Embeddings', 'Orca7Embeddings', 'Orca13Embeddings']
+  collections: ['OpenAIEmbeddings', 'GPT4AllEmbeddings', 'Orca3Embeddings', 'Orca7Embeddings', 'Orca13Embeddings']
 
 llms:
   evaluator: OpenAILLM

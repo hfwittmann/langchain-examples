@@ -7,7 +7,7 @@
 chat:
   embeddings:
     path: data/step03_store/embeddings
-    collections: ['OpenAIEmbeddings', 'FalconEmbeddings']
+    collections: ['OpenAIEmbeddings', 'GPT4AllEmbeddings']
   llms:
     collections: ['OpenAILLM']
 

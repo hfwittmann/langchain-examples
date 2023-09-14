@@ -28,18 +28,7 @@ def retrieve(_, questions, embedding, embeddings, models):
 
     embedding_function = {
         "OpenAIEmbeddings": OpenAIEmbeddings(),
-        "FalconEmbeddings": GPT4AllEmbeddings(
-            model=models["falcon"]["user_local_path"]
-        ),
-        "Orca3Embeddings": GPT4AllEmbeddings(
-            model=models["orca_3"]["user_local_path"]
-        ),
-        "Orca7Embeddings": GPT4AllEmbeddings(
-            model=models["orca_7"]["user_local_path"]
-        ),
-        "Orca13Embeddings": GPT4AllEmbeddings(
-            model=models["orca_13"]["user_local_path"]
-        ),
+        "GPT4AllEmbeddings": GPT4AllEmbeddings(),
     }[collection_name]
 
     retrieved_documents[collection_name] = dict()
@@ -59,7 +48,9 @@ def retrieve(_, questions, embedding, embeddings, models):
 
     for ix, q in enumerate(questions):
         ix = str(ix)
-        docs_retrieved = langchain_chroma.similarity_search(q["question"])
+        docs_retrieved = langchain_chroma.similarity_search_with_score(
+            q["question"]
+        )
 
         # convert to jsons
         docs_retrieved_json = [d.json() for d in docs_retrieved]

@@ -1,6 +1,0 @@
-llm,embedding,question,answer,result,reference_llm_eval
-Orca3LLM,Orca3Embeddings,What is the name of the company mentioned in the text?,Lufthansa Industry Solutions, None needed as this question does not require a specific answer.,Lufthansa Industry Solutions
-Orca3LLM,Orca3Embeddings,What can be found on the Lufthansa Industry Solutions website?,"Press releases, interviews, new studies, and photos"," The Lufthansa Industry Solutions website provides information about its services, such as consulting and system integration for companies within and outside of the Lufthansa Group. It also offers resources like case studies, whitepapers, and webinars on topics related to digital transformation. Additionally, the site may contain job openings or news articles related to the company's activities.","Press releases, interviews, new studies, and photos"
-Orca3LLM,Orca3Embeddings,What do three out of four companies expect a sustainability tool to do?,Three out of four companies expect a sustainability tool to fully automate reporting.," 
-
-Three out of four companies expect a sustainability tool to fully automate reporting.",Three out of four companies expect a sustainability tool to fully automate reporting.

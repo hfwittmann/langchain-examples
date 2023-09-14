@@ -23,14 +23,7 @@ bootstrap_project(
 #     pass
 
 
-embeddings = [
-    "OpenAIEmbeddings",
-    "FalconEmbeddings",
-    "Orca3Embeddings",
-    "Orca7Embeddings",
-    "Orca13Embeddings",
-]
-
+embeddings = ["OpenAIEmbeddings", "GPT4AllEmbeddings"]
 llms = ["OpenAILLM", "FalconLLM", "Orca3LLM", "Orca7LLM", "Orca13LLM"]
 
 
@@ -46,13 +39,13 @@ print(combinations)
 # with KedroSession.create() as session:
 #     session.run(pipeline_name="get_webdata")
 
-# for pipeline_name in tqdm(["simple", "chat"]):
-#     print(f"Running pipeline: {pipeline_name}")
-#     for embedding, llm in tqdm(combinations):
-#         with KedroSession.create(
-#             extra_params={"embedding": embedding, "llm": llm}
-#         ) as session:
-#             session.run(pipeline_name=pipeline_name)
+for pipeline_name in tqdm(["simple", "chat"]):
+    print(f"Running pipeline: {pipeline_name}")
+    for embedding, llm in tqdm(combinations):
+        with KedroSession.create(
+            extra_params={"embedding": embedding, "llm": llm}
+        ) as session:
+            session.run(pipeline_name=pipeline_name)
 
 # with KedroSession.create() as session:
 #     session.run(pipeline_name="generate_questions_and_answers_pairs")
@@ -71,10 +64,10 @@ print(combinations)
 #     with KedroSession.create() as session:
 #         session.run(pipeline_name=pipeline_name)
 
-for pipeline_name in tqdm(["stepzz_evaluate_one"]):
-    print(f"Running pipeline: {pipeline_name}")
-    for embedding, llm in tqdm(combinations):
-        with KedroSession.create(
-            extra_params={"embedding": embedding, "llm": llm}
-        ) as session:
-            session.run(pipeline_name=pipeline_name)
+# for pipeline_name in tqdm(["stepzz_evaluate_one"]):
+#     print(f"Running pipeline: {pipeline_name}")
+#     for embedding, llm in tqdm(combinations):
+#         with KedroSession.create(
+#             extra_params={"embedding": embedding, "llm": llm}
+#         ) as session:
+#             session.run(pipeline_name=pipeline_name)

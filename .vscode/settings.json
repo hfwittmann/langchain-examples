@@ -8,5 +8,5 @@
         "--line-length",
         "80"
     ],
-    :
+    "editor.wordWrap": "on"
 }

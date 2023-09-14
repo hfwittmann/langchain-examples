@@ -7,7 +7,7 @@
 evaluation:
   embeddings:
     path: data/03_primary/embeddings
-    collections: ['OpenAIEmbeddings', 'FalconEmbeddings']
+    collections: ['OpenAIEmbeddings', 'GPT4AllEmbeddings']
   llms:
     collections: ['OpenAILLM']
   llm_eval: 'OpenAILLM'
