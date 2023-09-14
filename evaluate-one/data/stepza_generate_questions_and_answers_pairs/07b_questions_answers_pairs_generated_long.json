@@ -1,0 +1,198 @@
+[
+  {
+    "question": "What is the name of the asset tracking software mentioned in the text?",
+    "answer": "LEAP"
+  },
+  {
+    "question": "What is the purpose of the asset tracking software mentioned in the text?",
+    "answer": "The purpose of the asset tracking software is to locate and monitor moving objects in real time."
+  },
+  {
+    "question": "What does LEAP offer companies?",
+    "answer": "LEAP offers companies a means of monitoring their objects using location and condition-based information."
+  },
+  {
+    "question": "What can our LEAP asset tracking system do?",
+    "answer": "LEAP asset tracking system can give you full control over your assets at all times along with access to the related location and condition information."
+  },
+  {
+    "question": "What is LEAP?",
+    "answer": "LEAP is a locating and tracking platform that provides companies with sensor-based information on demand."
+  },
+  {
+    "question": "What happens when sensor thresholds are exceeded or undershot?",
+    "answer": "The system sends corresponding notifications via email or submits them to the relevant interfaces."
+  },
+  {
+    "question": "What is the purpose of arranging a consultation appointment?",
+    "answer": "The purpose of arranging a consultation appointment is to discuss and seek advice or information on a specific topic or issue."
+  },
+  {
+    "question": "What is the purpose of the cloud-based omlox standard?",
+    "answer": "The purpose of the cloud-based omlox standard is to transmit sensor-based data from various sources to end devices and applications in an efficient and compatible manner."
+  },
+  {
+    "question": "What is LEAP?",
+    "answer": "LEAP is an asset tracking software package."
+  },
+  {
+    "question": "What does LEAP provide to its users?",
+    "answer": "LEAP provides an all-inclusive software package and handles every aspect of life cycle management."
+  },
+  {
+    "question": "What can LEAP be used for within the asset tracking industry?",
+    "answer": "LEAP can be used to help your company optimize its processes and to develop and expand IoT business models that rely on location-based data."
+  },
+  {
+    "question": "What is LEAP used for?",
+    "answer": "LEAP is used to unlock untapped potential."
+  },
+  {
+    "question": "What is one reason why companies often lack transparency for efficient object management?",
+    "answer": "They think that putting the necessary hardware and software into operation and managing these would take up too much time and resources."
+  },
+  {
+    "question": "What are some factors that contribute to the complexity of systems?",
+    "answer": "Different use cases with diverse requirements and combining solutions from different manufacturers."
+  },
+  {
+    "question": "What does the LEAP asset tracking system offer?",
+    "answer": "The LEAP asset tracking system offers a relatively easy and cost-effective way of monitoring and managing objects via real-time tracking."
+  },
+  {
+    "question": "What added value does our LEAP asset tracking software offer?",
+    "answer": "The LEAP asset tracking software offers added value by providing real-time visibility and control over assets, optimizing asset utilization, reducing operational costs, and improving overall efficiency."
+  },
+  {
+    "question": "What does LEAP provide as a locating engine?",
+    "answer": "LEAP provides one central solution for monitoring objects and processes."
+  },
+  {
+    "question": "What is the purpose of the LEAP ecosystem?",
+    "answer": "The purpose of the LEAP ecosystem is to offer maximum flexibility for meeting company-specific needs."
+  },
+  {
+    "question": "What is the purpose of LEAP?",
+    "answer": "The purpose of LEAP is to not only automate processes but also to develop their own business models."
+  },
+  {
+    "question": "What is the purpose of the LEAP asset tracking system?",
+    "answer": "The purpose of the LEAP asset tracking system is to track and monitor assets."
+  },
+  {
+    "question": "What components make up LEAP as a locating platform?",
+    "answer": "LEAP is based on an integrated combination of IoT sensors, asset tracking software, and life cycle management."
+  },
+  {
+    "question": "What is the advantage of using the tracking software mentioned in the text?",
+    "answer": "The advantage is that you can get an overview of all the objects equipped with sensors, view relevant information in real time, and configure alarms for specific thresholds."
+  },
+  {
+    "question": "What is the benefit of LEAP being a cloud-based platform?",
+    "answer": "LEAP being a cloud-based platform allows users to access it at any time and from anywhere."
+  },
+  {
+    "question": "What was replaced?",
+    "answer": "The text"
+  },
+  {
+    "question": "What is the LEAP asset tracking system designed for?",
+    "answer": "The LEAP asset tracking system is designed for ideal application areas."
+  },
+  {
+    "question": "What types of companies is LEAP ideal for?",
+    "answer": "LEAP is ideal for any company with a large number of moving objects whose location and/or condition play(s) a crucial role in the company\u2019s own business processes. It is also perfect for companies that want to develop business models themselves in the areas of IoT, tracking, track and pay, tracking as a service, or geofencing."
+  },
+  {
+    "question": "What information can be tracked using LEAP?",
+    "answer": "Information such as the location, temperature, or any abrupt movements can be tracked."
+  },
+  {
+    "question": "What can LEAP be used to locate?",
+    "answer": "Vehicles"
+  },
+  {
+    "question": "What are the two companies mentioned in the text?",
+    "answer": "LHIND and LEAP"
+  },
+  {
+    "question": "What is the main focus of Lufthansa Industry Solutions?",
+    "answer": "The main focus of Lufthansa Industry Solutions is system integration."
+  },
+  {
+    "question": "What is the benefit of the collaboration with IoT sensor manufacturers?",
+    "answer": "The benefit of the collaboration with IoT sensor manufacturers is the ability to respond to individual requirements and provide suitable solutions."
+  },
+  {
+    "question": "What is the purpose of arranging a consultation appointment?",
+    "answer": "The purpose of arranging a consultation appointment is to discuss and seek advice or information on a specific topic or issue."
+  },
+  {
+    "question": "What is DeepHub?",
+    "answer": "DeepHub is a leading location middleware based on the global, open standard for location technologies, omlox."
+  },
+  {
+    "question": "What is omlox?",
+    "answer": "omlox is a global open standard for locating technologies that allows the standardized integration and interoperability of AIDC and locating technologies."
+  },
+  {
+    "question": "What are the advantages of DeepHub?",
+    "answer": "DeepHub is known for its lightweight architecture, unparalleled performance, ease of use, and complete interoperability of all location technologies."
+  },
+  {
+    "question": "What are the benefits of using LEAP in conjunction with DeepHub Inside and the omlox standard?",
+    "answer": "The benefits include the ability to integrate sensors and locating technologies in a vendor-neutral way, allowing greater flexibility when choosing solutions and partners."
+  },
+  {
+    "question": "What are some advantages for the end user mentioned in the text?",
+    "answer": "The advantages for the end user mentioned in the text are greater cost-effectiveness, faster implementation, and flexible scaling of solutions."
+  },
+  {
+    "question": "What is one benefit of using DeepHub for data analysis?",
+    "answer": "Improved process optimization and cost savings for the end user."
+  },
+  {
+    "question": "What are some examples of open source projects mentioned in the text?",
+    "answer": "omlox and DeepHub"
+  },
+  {
+    "question": "What is the purpose of the track and pay use case?",
+    "answer": "The purpose of the track and pay use case is to enable seamless monitoring and payment within the context of logistics and goods transport services."
+  },
+  {
+    "question": "What benefits does track and pay provide in the logistics and goods transport sector?",
+    "answer": "Track and pay ensures greater efficiency and transparency."
+  },
+  {
+    "question": "What can LEAP do for your business processes?",
+    "answer": "LEAP can take your business processes to a whole new dimension."
+  },
+  {
+    "question": "What information is required in the 'E-Mail' field?",
+    "answer": "The email address is required in the 'E-Mail' field."
+  },
+  {
+    "question": "Who is LHIND partnering with?",
+    "answer": "LHIND is partnering with Bechtle."
+  },
+  {
+    "question": "What is the purpose of the first commercial smart label tracking device unveiled at CES?",
+    "answer": "The purpose of the first commercial smart label tracking device unveiled at CES is to provide a paper-thin localization solution for logistics and other industries."
+  },
+  {
+    "question": "What must become the standard in waste management logistics to meet the challenges of the industry?",
+    "answer": "Smart waste"
+  },
+  {
+    "question": "How can industrial companies benefit from utilizing sensors?",
+    "answer": "Industrial companies can use their devices more cost efficiently and provide customers with new services."
+  },
+  {
+    "question": "What are the different sections available on the LHIND website?",
+    "answer": "Solutions & Products, References, Career, Company, Events, Newsroom & Downloads, Studies & Whitepaper"
+  },
+  {
+    "question": "What certifications does Lufthansa Group have?",
+    "answer": "Lufthansa Group has the certifications Tisax and ISO27001."
+  }
+]

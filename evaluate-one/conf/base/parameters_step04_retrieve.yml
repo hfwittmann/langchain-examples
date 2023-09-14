@@ -3,3 +3,7 @@
 #
 # Documentation for this file format can be found in "Parameters"
 # Link: https://docs.kedro.org/en/0.18.13/configuration/parameters.html
+
+questions:
+  - question: Who is Bernhard Kube?
+  - question: What is Bernhard's role at Lufthansa?

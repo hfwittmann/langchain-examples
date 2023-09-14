@@ -7,6 +7,14 @@ webdata:
   type: json.JSONDataSet
   filepath: data/step01_load/webdata.json
 
+webdata_cleaned:
+  type: json.JSONDataSet
+  filepath: data/step01_load/webdata_cleaned.json
+
+webdata_deduplicated:
+  type: json.JSONDataSet
+  filepath: data/step01_load/webdata_deduplicated.json
+
 split_webdata:
   type: json.JSONDataSet
   filepath: data/step02_split/split_webdata.json

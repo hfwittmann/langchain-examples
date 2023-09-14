@@ -37,7 +37,7 @@
             "args": [
                 "run",
                 "--pipeline",
-                "step04_retrieve",
+                "step02_split",
                 // "--nodes",
                 // "transform_questions_2_dataframe "
             ]

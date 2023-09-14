@@ -5,6 +5,13 @@
 # Link: https://docs.kedro.org/en/0.18.13/configuration/parameters.html
 
 url: https://www.lufthansa-industry-solutions.com/de-en/
-questions:
-  - question: Who is Bernhard Kube?
-  - question: What is Bernhard's role at Lufthansa?
+
+clean_reg_ex:  
+  - 
+    pattern: "\n+"
+    repl: "\n"
+  - 
+    pattern: " +"
+    repl: " "
+
+deduplicate: true 

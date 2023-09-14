@@ -53,7 +53,7 @@ def retrieve(_, questions, embedding, embeddings, models):
         )
 
         # convert to jsons
-        docs_retrieved_json = [d.json() for d in docs_retrieved]
+        docs_retrieved_json = [d.json() for (d, myprob) in docs_retrieved]
 
         retrieved_documents[collection_name][ix] = dict()
         retrieved_documents[collection_name][ix]["question"] = q["question"]

@@ -1,0 +1,17 @@
+{
+  "OpenAILLM": {
+    "OpenAIEmbeddings": {
+      "result": {
+        "question": "What is his role at Lufthansa?",
+        "chat_history": [
+          "{\"content\": \"Who is Bernhard Kube?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube is an expert on quantum computing and one of the LHIND experts interviewed about the current state of the technology and what benefits companies can already draw.\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \"What is his role at Lufthansa?\", \"additional_kwargs\": {}, \"example\": false}",
+          "{\"content\": \" Bernhard Kube is the Vice President of Artificial Intelligence & Data Analytics at Lufthansa.\", \"additional_kwargs\": {}, \"example\": false}"
+        ],
+        "answer": " Bernhard Kube is the Vice President of Artificial Intelligence & Data Analytics at Lufthansa."
+      },
+      "time_taken": 3.693056344985962
+    }
+  }
+}

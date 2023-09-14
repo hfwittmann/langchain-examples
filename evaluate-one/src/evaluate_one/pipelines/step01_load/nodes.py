@@ -3,9 +3,13 @@ This is a boilerplate pipeline 'step01_load'
 generated using Kedro 0.18.13
 """
 
+import json
+import re
+
+from bs4 import BeautifulSoup as Soup
+
 # from langchain.document_loaders import WebBaseLoader
 from langchain.document_loaders.recursive_url_loader import RecursiveUrlLoader
-from bs4 import BeautifulSoup as Soup
 
 
 def load(url):
@@ -21,3 +25,16 @@ def load(url):
     data_jsons = [d.json() for d in data]
 
     return data_jsons
+
+
+def clean(webdata, clean_reg_ex):
+    webdata_jsons = [json.loads(d) for d in webdata]
+
+    for d_j in webdata_jsons:
+        for match in clean_reg_ex:
+            pattern, repl = match["pattern"], match["repl"]
+            d_j["page_content"] = re.sub(
+                pattern=pattern, repl=repl, string=d_j["page_content"]
+            )
+
+    return webdata_jsons
